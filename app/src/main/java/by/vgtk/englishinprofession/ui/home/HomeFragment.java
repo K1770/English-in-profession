@@ -1,6 +1,5 @@
 package by.vgtk.englishinprofession.ui.home;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -8,20 +7,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.Button;
+import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import by.vgtk.englishinprofession.MainActivity3;
 import by.vgtk.englishinprofession.R;
 import by.vgtk.englishinprofession.databinding.FragmentHomeBinding;
+import by.vgtk.englishinprofession.ui.home.activity.EnglishVocForComputerActivity;
+import by.vgtk.englishinprofession.ui.home.activity.ListViewActivity;
 
 public class HomeFragment extends Fragment {
 
@@ -42,8 +39,20 @@ public class HomeFragment extends Fragment {
         Button button = (Button) root.findViewById(R.id.EnglishVocabularyForComputersButton);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent=new Intent(getContext(),EnglishVocForComputerActivity.class);
+                Intent intent=new Intent(getContext(), EnglishVocForComputerActivity.class);
                 startActivity(intent);
+            }
+        });
+
+        elv.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
+            @Override
+            public boolean onChildClick(ExpandableListView parent, View v,
+                                        int groupPosition, int childPosition, long id) {
+                    String position = String.valueOf(groupPosition) + String.valueOf(childPosition);
+                    Intent intent=new Intent(getContext(), ListViewActivity.class);
+                    intent.putExtra("position", position);
+                    startActivity(intent);
+                return false;
             }
         });
 
