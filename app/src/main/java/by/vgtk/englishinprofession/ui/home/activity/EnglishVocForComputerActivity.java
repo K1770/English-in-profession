@@ -1,4 +1,4 @@
-package by.vgtk.englishinprofession.ui.home;
+package by.vgtk.englishinprofession.ui.home.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 

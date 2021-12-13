@@ -11,4 +11,10 @@
         android:label="@string/menu_ecp"
         tools:layout="@layout/fragment_home" />
 
+    <fragment
+        android:id="@+id/nav_monitor"
+        android:name="by.vgtk.englishinprofession.fragments.ComputerPartsFragment"
+        android:label="Monitor"
+        tools:layout="@layout/fragment_computer_parts" />
+
 </navigation>

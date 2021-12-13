@@ -9,8 +9,15 @@
         android:id="@+id/listGroupData"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingLeft="35sp"
+        android:paddingLeft="5dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textStyle="bold" />
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/white"
+        android:background="@color/purple_500"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        />
 
 </LinearLayout>

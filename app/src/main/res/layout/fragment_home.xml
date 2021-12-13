@@ -24,8 +24,12 @@
         android:id="@+id/EnglishVocabularyForComputersButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
         android:onClick="evfcButtonOnClick"
         android:text="@string/enVocForComButton"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:letterSpacing="0"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ExpandableListView
