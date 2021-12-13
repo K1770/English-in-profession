@@ -1,57 +1,60 @@
-package by.vgtk.englishinprofession;
+package by.vgtk.englishinprofession.ui.home.activity;
 
 import android.os.Bundle;
-import android.view.Menu;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
 
-import com.google.android.material.navigation.NavigationView;
+import by.vgtk.englishinprofession.R;
+import by.vgtk.englishinprofession.databinding.ActivityListViewBinding;
+import by.vgtk.englishinprofession.fragments.ComputerPartsFragment;
 
-import by.vgtk.englishinprofession.databinding.ActivityMain3Binding;
-
-public class MainActivity3 extends AppCompatActivity {
+public class ListViewActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
-    private ActivityMain3Binding binding;
-
+    private ActivityListViewBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_list_view);
+        if (savedInstanceState == null) {
 
-        binding = ActivityMain3Binding.inflate(getLayoutInflater());
+            getSupportFragmentManager().beginTransaction()
+                    .add(R.id.fragment_container_view, ComputerPartsFragment.class, null)
+                    .commit();
+        }
+    }
+
+
+    /*protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        binding = ActivityListViewBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        setSupportActionBar(binding.appBarMain.toolbar);
+        //setSupportActionBar(binding.appBarMain.toolbar);
         DrawerLayout drawer = binding.drawerLayout;
-        NavigationView navigationView = binding.navView;
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home)
+                R.id.nav_monitor)
                 .setOpenableLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
-        NavigationUI.setupWithNavController(navigationView, navController);
-    }
+    }*/
 
-    @Override
+    /*@Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main_activity3, menu);
         return true;
     }
 
-    @Override
+   /*@Override
     public boolean onSupportNavigateUp() {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
-    }
+    }*/
 }
