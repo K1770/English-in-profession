@@ -25,6 +25,7 @@ public class MainActivity3 extends AppCompatActivity {
 
         System.out.println("igor test");
         System.out.println("igor test");
+        System.out.println("igor test");
 
         super.onCreate(savedInstanceState);
 
