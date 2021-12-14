@@ -22,6 +22,9 @@ public class MainActivity3 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        System.out.println("igor test");
+
         super.onCreate(savedInstanceState);
 
         binding = ActivityMain3Binding.inflate(getLayoutInflater());
