@@ -6,18 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".fragments.ComputerPartsFragment">
 
-    <ImageView
-        android:id="@+id/imageViewComputer"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"/>
-
-
     <TextView
         android:id="@+id/computerTextView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewComputer" />
-
+        android:layout_height="match_parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

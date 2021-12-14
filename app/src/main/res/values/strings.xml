@@ -15,11 +15,11 @@
     <string name="monitor">Monitor</string>
     <string name="printer">Printer</string>
     <string name="mouse">Mouse</string>
-    <string name="speaker">Speaker</string>
-    <string name="memory">Memory</string>
-    <string name="keyboard">Keyboard</string>
-    <string name="scanner">Scanner</string>
-    <string name="cpu">CPU</string>
-    <string name="headsets">Headsets</string>
-    <string name="webcam">Webcam</string>
+    <string name="speaker">speaker</string>
+    <string name="memory">memory</string>
+    <string name="keyboard">keyboard</string>
+    <string name="scanner">scanner</string>
+    <string name="cpu">cpu</string>
+    <string name="headsets">headsets</string>
+    <string name="webcam">webcam</string>
 </resources>
