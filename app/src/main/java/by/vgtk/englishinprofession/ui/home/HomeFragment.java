@@ -33,9 +33,6 @@ public class HomeFragment extends Fragment {
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        ExpandableListView elv = (ExpandableListView) root.findViewById(R.id.expListViewEICO);
-        elv.setAdapter(new EngInComOperationList());
-
         Button button = (Button) root.findViewById(R.id.EnglishVocabularyForComputersButton);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -43,6 +40,9 @@ public class HomeFragment extends Fragment {
                 startActivity(intent);
             }
         });
+
+        ExpandableListView elv = (ExpandableListView) root.findViewById(R.id.expListViewEICO);
+        elv.setAdapter(new EngInComOperationList());
 
         elv.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
             @Override

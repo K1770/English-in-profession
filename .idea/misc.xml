@@ -3,8 +3,6 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1125" />
-        <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1125" />
         <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/activity_english_voc_for_computer.xml" value="0.2" />
         <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/activity_list_view.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/activity_list_view01.xml" value="0.1" />
@@ -14,7 +12,6 @@
         <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/app_bar_main.xml" value="0.25" />
         <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/child_items.xml" value="0.33" />
         <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/content_main.xml" value="0.1" />
-        <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/fragment_computer_parts.xml" value="0.1" />
         <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/fragment_gallery.xml" value="0.2" />
         <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/fragment_home.xml" value="0.18" />
         <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/fragment_monitor.xml" value="0.25" />
@@ -24,6 +21,13 @@
         <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/nav_header_main.xml" value="0.1" />
         <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
         <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/menu/main_activity3.xml" value="0.1" />
+        <entry key="..\:/Users/grunt/AndroidStudioProjects/English-in-profession/app/src/main/res/layout/activity_main3.xml" value="0.259375" />
+        <entry key="..\:/Users/grunt/AndroidStudioProjects/English-in-profession/app/src/main/res/layout/activity_start.xml" value="0.259375" />
+        <entry key="..\:/Users/grunt/AndroidStudioProjects/English-in-profession/app/src/main/res/layout/fragment_computer_parts.xml" value="0.259375" />
+        <entry key="..\:/Users/grunt/AndroidStudioProjects/English-in-profession/app/src/main/res/layout/fragment_home.xml" value="0.259375" />
+        <entry key="..\:/Users/grunt/AndroidStudioProjects/English-in-profession/app/src/main/res/layout/fragment_start.xml" value="0.259375" />
+        <entry key="..\:/Users/grunt/AndroidStudioProjects/English-in-profession/app/src/main/res/layout/fragment_start_parts.xml" value="0.259375" />
+        <entry key="..\:/Users/grunt/AndroidStudioProjects/English-in-profession/app/src/main/res/layout/nav_header_main.xml" value="0.259375" />
       </map>
     </option>
   </component>
