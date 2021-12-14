@@ -25,16 +25,43 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-medium"
+        android:letterSpacing="0"
         android:onClick="evfcButtonOnClick"
         android:text="@string/enVocForComButton"
-        android:textSize="14sp"
         android:textAllCaps="false"
-        android:letterSpacing="0"
+        android:textSize="14sp"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ExpandableListView
         android:id="@+id/expListViewEICO"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/EnglishVocabularyForComputersButton"/>
+        app:layout_constraintTop_toBottomOf="@+id/EnglishVocabularyForComputersButton">
+    </ExpandableListView>
+
+
+    <Button
+        android:id="@+id/EnglishVocabularyForComputersButtonTests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:letterSpacing="0"
+        android:onClick="evfcTestsButtonOnClick"
+        android:text="@string/ButtonTests"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/expListViewEICO"/>
+
+    <Button
+        android:id="@+id/EnglishVocabularyForComputersButtonBooks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:letterSpacing="0"
+        android:onClick="evfcBooksButtonOnClick"
+        android:text="@string/ButtonBooks"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/EnglishVocabularyForComputersButtonTests"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
