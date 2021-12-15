@@ -6,15 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".ui.roaders.RoadersFragment">
 
-    <com.google.android.youtube.player.YouTubePlayerView
+    <!--com.google.android.youtube.player.YouTubePlayerView
         android:id="@+id/youtube_player_roaders_builders"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
         app:layout_constraintTop_toTopOf="parent"
-        />
+        /-->
 
-    <!--ScrollView
+    <fragment
+        android:id="@+id/youtube_player_fragment_roaders_builders"
+        android:name="com.google.android.youtube.player.YouTubePlayerFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--
+            app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+    ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fillViewport="true"
