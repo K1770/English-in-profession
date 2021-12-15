@@ -18,9 +18,9 @@
         tools:layout="@layout/fragment_start" />
 
     <fragment
-        android:id="@+id/nav_monitor"
-        android:name="by.vgtk.englishinprofession.fragments.ComputerPartsFragment"
-        android:label="Monitor"
+        android:id="@+id/nav_roaders"
+        android:name="by.vgtk.englishinprofession.ui.roaders.RoadersFragment"
+        android:label="Road Builders"
         tools:layout="@layout/fragment_computer_parts" />
 
 </navigation>
