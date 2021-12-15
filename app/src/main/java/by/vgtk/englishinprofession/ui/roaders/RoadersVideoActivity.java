@@ -1,47 +1,30 @@
 package by.vgtk.englishinprofession.ui.roaders;
 
 import android.os.Bundle;
-import android.widget.TextView;
+import android.widget.Toast;
 
-import com.google.android.youtube.player.YouTubeBaseActivity;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
-import com.google.android.youtube.player.YouTubePlayerView;
+import com.google.android.youtube.player.YouTubePlayerFragment;
 
 import by.vgtk.englishinprofession.PlayerConfig;
 import by.vgtk.englishinprofession.R;
 
-public class RoadersVideoActivity extends YouTubeBaseActivity {
+public class RoadersVideoActivity extends AppCompatActivity implements YouTubePlayer.OnInitializedListener {
 
-    YouTubePlayerView youTubePlayerView;
-    YouTubePlayer.OnInitializedListener onInitializedListener;
+    private static final int RECOVERY_DIALOG_REQUEST = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_roaders_video);
 
-        youTubePlayerView = (YouTubePlayerView) findViewById(R.id.youtube_player_roaders_builders);
-
-        onInitializedListener = new YouTubePlayer.OnInitializedListener(){
-
-            @Override
-            public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
-                Bundle arguments = getIntent().getExtras();
-                String position = arguments.get("linkPosition").toString();
-
-                youTubePlayer.loadVideo(getVideoLink(position));
-
-                youTubePlayer.play();
-            }
-
-            @Override
-            public void onInitializationFailure(YouTubePlayer.Provider provider, YouTubeInitializationResult youTubeInitializationResult) {
-
-            }
-        };
-
-        youTubePlayerView.initialize(PlayerConfig.API_KEY,onInitializedListener);
+        YouTubePlayerFragment youTubePlayerFragment =
+                (YouTubePlayerFragment) getFragmentManager().findFragmentById(R.id.youtube_player_fragment_roaders_builders);
+        youTubePlayerFragment.initialize(PlayerConfig.API_KEY,
+                this);
     }
 
     private String getVideoLink(String position) {
@@ -61,5 +44,24 @@ public class RoadersVideoActivity extends YouTubeBaseActivity {
                 break;
         }
         return link;
+    }
+
+    @Override
+    public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean wasRestored) {
+        if (!wasRestored) {
+            Bundle arguments = getIntent().getExtras();
+            String position = arguments.get("linkPosition").toString();
+            youTubePlayer.cueVideo(getVideoLink(position));
+        }
+    }
+
+    @Override
+    public void onInitializationFailure(YouTubePlayer.Provider provider, YouTubeInitializationResult youTubeInitializationResult) {
+        if (youTubeInitializationResult.isUserRecoverableError()) {
+            youTubeInitializationResult.getErrorDialog(this, RECOVERY_DIALOG_REQUEST).show();
+        } else {
+            String errorMessage = String.format("There was an error initializing the YouTubePlayer (%1$s)", youTubeInitializationResult.toString());
+            Toast.makeText(this, errorMessage, Toast.LENGTH_LONG).show();
+        }
     }
 }
