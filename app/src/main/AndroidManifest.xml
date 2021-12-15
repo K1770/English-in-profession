@@ -20,6 +20,9 @@
             android:name=".ui.roaders.RoadersVideoActivity"
             android:exported="false" />
         <activity
+            android:name=".PDFViewActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.home.activity.EnglishVocForComputerActivity"
             android:exported="false" />
         <activity

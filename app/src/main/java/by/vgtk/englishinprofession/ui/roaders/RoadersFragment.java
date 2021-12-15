@@ -15,9 +15,11 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.lifecycle.ViewModelProvider;
 
+import by.vgtk.englishinprofession.PDFViewActivity;
 import by.vgtk.englishinprofession.R;
 import by.vgtk.englishinprofession.databinding.FragmentRoadersBinding;
 import by.vgtk.englishinprofession.ui.home.HomeFragment;
+import by.vgtk.englishinprofession.ui.home.activity.EnglishVocForComputerActivity;
 import by.vgtk.englishinprofession.ui.home.activity.ListViewActivity;
 
 
@@ -43,6 +45,15 @@ public class RoadersFragment extends Fragment {
                 intent.putExtra("linkPosition", position);
                 startActivity(intent);
                 return false;
+            }
+        });
+
+        Button button = (Button) root.findViewById(R.id.buttonRoadersBook);
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent=new Intent(getContext(), PDFViewActivity.class);
+                intent.putExtra("bookLink", "https://drive.google.com/file/d/1j5qesLJe1TDuej6wCfz12Ds1j8hNEd8Q/view?usp=sharing");
+                startActivity(intent);
             }
         });
 
