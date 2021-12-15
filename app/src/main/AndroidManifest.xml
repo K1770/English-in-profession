@@ -17,6 +17,9 @@
             android:name=".ui.home.activity.ListViewActivity"
             android:exported="false" />
         <activity
+            android:name=".ui.roaders.RoadersVideoActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.home.activity.EnglishVocForComputerActivity"
             android:exported="false" />
         <activity
