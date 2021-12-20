@@ -21,6 +21,13 @@
         android:id="@+id/nav_roaders"
         android:name="by.vgtk.englishinprofession.ui.roaders.RoadersFragment"
         android:label="Road Builders"
-        tools:layout="@layout/fragment_computer_parts" />
+        tools:layout="@layout/fragment_roaders" />
+
+    <fragment
+        android:id="@+id/nav_mechanics"
+        android:name="by.vgtk.englishinprofession.ui.mechanics.MechanicsFragment"
+        android:label="Car Mechanics"
+        tools:layout="@layout/fragment_mechanics" />
+
 
 </navigation>

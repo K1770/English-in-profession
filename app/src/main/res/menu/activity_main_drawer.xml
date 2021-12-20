@@ -10,5 +10,8 @@
         <item
             android:id="@+id/nav_roaders"
             android:title="Road builders" />
+        <item
+            android:id="@+id/nav_mechanics"
+            android:title="Car Mechanics" />
     </group>
 </menu>

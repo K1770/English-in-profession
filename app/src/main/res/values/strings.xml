@@ -23,4 +23,220 @@
     <string name="cpu">CPU (Central Processing Unit) The CPU (Central Processing Unit) is considered as the brain of computer. A central processing unit is an electronic circuit that carries out the instructions of a computer program. It performs basic arithmetic, logical, control, and input/output operations. The user or human being writes a program to the computer. Computers do not have  intelligence, so they could not perform any operations on their own. Hence, all the instructions to the computer are given by the user to perform specific task. CPU controls operations on all parts of the computer including main memory. CPU is also sometimes referred as central processor, microprocessor, or simply processor. It is the most important part of a computer system. In all modern small computers, the CPU is placed on a single silicon chip. Hence, the size of CPU is reduced. CPU consists of two main components: ALU (Arithmetic Logic Unit) Control unit Arithmetic Logic Unit (ALU) Arithmetic Logic Unit (ALU) is a digital electronic circuit that performs arithmetic and logical operations. In some computers, the Arithmetic Logic Unit (ALU) is divided in two parts: Arithmetic unit (AU) and Logic Unit (LU). The arithmetic unit performs the arithmetic operations and the logic unit performs the logical operations. The various arithmetic operations performed by the Arithmetic Unit (AU) include addition, subtraction, multiplication, and division. Arithmetic unit performs these arithmetic operations at high speed. The various logical operations performed by the Logic Unit (LU) include NOT, AND, OR, NAND, NOR, XOR, XNOR, etc. The results of the ALU are stored in memory for further use. The results that are stored in the memory are passed to output devices. The control unit controls all the operations of the computer. It tells the Arithmetic Logic Unit (ALU), computers memory, input and output devices how to respond to the program instructions. It controls the flow of data between CPU and other devices. The control unit efficiently manages the resources of the computer to reduce power consumption. It also checks the correctness of the sequence of operations. The devices, which requires control unit, include Central Processing Unit (CPU) and Graphics Processing Unit (GPU).</string>
     <string name="headsets">A headset can be an essential tool for communication, particularly when working from home, where you may need to block out surrounding noise just to get work done.</string>
     <string name="webcam"><b>Webcam.</b>\n In 1991, the first webcam was up and running at Cambridge University\'s  <b>Computer Science</b> Department, but since then, webcams have crept into homes, businesses, public streets and buildings. Webcams are often used for personal use in the home by parents who want to give distant relatives visual access to their children or want to monitor what goes on in the home while they are at work. People might also use webcams in the home to keep an eye on things while they are out of town or even just to see what their pets do all day. The uses of a webcam are limitless. Businesses often use webcams for <b>video conferencing</b>, and webcam technology is used by numerous other entities to give the public access to a variety of information, from weather and traffic to the feeding habits of the most recently acquired zoo animal. Some schools and day care facilities use a webcam to allow parents to see what their children do at school.</string>
+
+    <string-array name="englishVocComputerSpeakStrings">
+        <item>ability</item>
+        <item>accurate</item>
+        <item>to affect</item>
+        <item>amount of data</item>
+        <item>approximately</item>
+        <item>to attain</item>
+        <item>available</item>
+        <item>broadband connection</item>
+        <item>to browse</item>
+        <item>browser</item>
+        <item>to carry out</item>
+        <item>computer desk</item>
+        <item>computer mouse</item>
+        <item>(photo)copier</item>
+        <item>to count</item>
+        <item>CPU</item>
+        <item>to crack</item>
+        <item>dangerous</item>
+        <item>data (datum)</item>
+        <item>defense</item>
+        <item>to deploy</item>
+        <item>to design</item>
+        <item>to determine</item>
+        <item>dial up</item>
+        <item>digital</item>
+        <item>display</item>
+        <item>to download</item>
+        <item>drive</item>
+        <item>electronic device</item>
+        <item>electronic mail (e-mail)</item>
+        <item>email accounts</item>
+        <item>to enable</item>
+        <item>to enhance</item>
+        <item>essential</item>
+        <item>except</item>
+        <item>fast modem</item>
+        <item>to find</item>
+        <item>flash drive (card)</item>
+        <item>floppy disk</item>
+        <item>to handle</item>
+        <item>hard drive</item>
+        <item>infrared</item>
+        <item>informational server</item>
+        <item>to intercept</item>
+        <item>interface</item>
+        <item>keyboard</item>
+        <item>laptop</item>
+        <item>to last</item>
+        <item>layman</item>
+        <item>link</item>
+        <item>to log in</item>
+        <item>to matсh</item>
+        <item>message</item>
+        <item>memory</item>
+        <item>monitor</item>
+        <item>motherboard</item>
+        <item>(the) net</item>
+        <item>network</item>
+        <item>obsolete</item>
+        <item>operating system</item>
+        <item>overload</item>
+        <item>to perform</item>
+        <item>player</item>
+        <item>printer</item>
+        <item>processing unit</item>
+        <item>to provide</item>
+        <item>provider</item>
+        <item>query</item>
+        <item>to receive</item>
+        <item>reliable</item>
+        <item>to respond</item>
+        <item>scale</item>
+        <item>to scan</item>
+        <item>scanner</item>
+        <item>search-program</item>
+        <item>security</item>
+        <item>to send</item>
+        <item>set of instructions</item>
+        <item>significant</item>
+        <item>site</item>
+        <item>society</item>
+        <item>to solve</item>
+        <item>source</item>
+        <item>speakers</item>
+        <item>storage</item>
+        <item>to surf</item>
+        <item>system unit</item>
+        <item>tool</item>
+        <item>to type</item>
+        <item>to update</item>
+        <item>user</item>
+        <item>virtual reality</item>
+        <item>voice message</item>
+        <item>voltage</item>
+        <item>window</item>
+        <item>www (worldwide web)</item>
+    </string-array>
+
+    <string-array name="englishVocComputerButtonStrings">
+        <item>ability - способность, возможность</item>
+        <item>accurate - точный</item>
+        <item>to affect - воздействовать</item>
+        <item>amount of data - объем данных</item>
+        <item>approximately - приблизительно</item>
+        <item>to attain - достигать</item>
+        <item>available - доступный</item>
+        <item>broadband connection - выделенное подключение</item>
+        <item>tto browse - просматривать</item>
+        <item>browser - браузер, окно просмотра</item>
+        <item>to carry out - выполнять</item>
+        <item>computer desk - компьютерный стол</item>
+        <item>computer mouse - компьютерная мышка</item>
+        <item>(photo)copier - ксерокс, копир</item>
+        <item>to count - считать, сосчитать</item>
+        <item>CPU - центральный процессор</item>
+        <item>to crack - взломать</item>
+        <item>dangerous - опасный</item>
+        <item>data (datum) - данные, сведения</item>
+        <item>defense - оборона, защита</item>
+        <item>to deploy - использовать, употреблять</item>
+        <item>to design - задумывать, придумывать, разрабатывать</item>
+        <item>to determine - определить</item>
+        <item>dial up - доступ к сети через модемное подключение</item>
+        <item>digital - цифровой</item>
+        <item>display - дисплей</item>
+        <item>to download - загружать, скачать</item>
+        <item>drive - диск, привод</item>
+        <item>electronic device - электронное устройство</item>
+        <item>electronic mail (e-mail) - электронная почта</item>
+        <item>email accounts - учетные записи электронной почты</item>
+        <item>to enable - давать возможность или право на ч-т</item>
+        <item>to enhance - повышать, увеличивать</item>
+        <item>essential - существенный</item>
+        <item>except - за исключением, кроме</item>
+        <item>fast modem - быстрый модем</item>
+        <item>to find - находить</item>
+        <item>flash drive (card) - флеш-диск (карта)</item>
+        <item>floppy disk - дискета</item>
+        <item>to handle - обращаться, иметь дело с</item>
+        <item>hard drive - жесткий диск</item>
+        <item>infrared - инфракрасный</item>
+        <item>informational server - информационный сервер</item>
+        <item>to intercept - перехватить (сигнал и т.д.)</item>
+        <item>interface - интерфейс</item>
+        <item>keyboard - клавиатура</item>
+        <item>laptop - ноутбук</item>
+        <item>to last - длиться</item>
+        <item>layman - непрофессионал, любитель, ламер</item>
+        <item>link - ссылка</item>
+        <item>to log in - входить, подключаться</item>
+        <item>to matсh - подходить, соответствовать</item>
+        <item>message - послание</item>
+        <item>memory - память</item>
+        <item>monitor - монитор</item>
+        <item>motherboard - материнская плата</item>
+        <item>(the) net - сеть, (Интернет)</item>
+        <item>network - сеть</item>
+        <item>obsolete - устаревший</item>
+        <item>operating system - операционная система</item>
+        <item>overload - перегрузка</item>
+        <item>to perform - выполнять, осуществлять</item>
+        <item>player - проигрыватель</item>
+        <item>printer - принтер</item>
+        <item>processing unit - вычислительное устройство</item>
+        <item>to provide - снабжать, доставлять; обеспечивать</item>
+        <item>provider - провайдер, поставщик</item>
+        <item>query - запрос, вопрос</item>
+        <item>to receive - получать, принимать</item>
+        <item>reliable - надежный</item>
+        <item>to respond - отвечать, реагировать</item>
+        <item>scale - масштаб</item>
+        <item>to scan - сканировать</item>
+        <item>scanner - сканер</item>
+        <item>search-program - программа-поисковик</item>
+        <item>security - безопасность</item>
+        <item>to send - отправлять</item>
+        <item>set of instructions - набор (свод инструкций)</item>
+        <item>significant - значительный, важный, существенный</item>
+        <item>site - сайт</item>
+        <item>society - общество</item>
+        <item>to solve - решать, разрешать; находить выход</item>
+        <item>source - источник</item>
+        <item>speakers - колонки</item>
+        <item>storage - хранение</item>
+        <item>to surf - просматривать различные сайты в сети</item>
+        <item>system unit - системный блок</item>
+        <item>tool - инструмент, орудие</item>
+        <item>to type - печатать, напечатать</item>
+        <item>to update - обновить</item>
+        <item>user - пользователь</item>
+        <item>virtual reality - виртуальная реальность</item>
+        <item>voice message - голосовое послание</item>
+        <item>voltage - напряжение</item>
+        <item>window - окно</item>
+        <item>www (worldwide web) - всемирная сеть</item>
+    </string-array>
+
+    <string-array name="carMechanicsMainText">
+        <item>A car mechanic is a service professional who maintains and repairs automotive vehicles. He or she might work on cars and trucks that operate using a traditional fuel like gasoline, or a non-traditional fuel such as ethanol or electricity. This type of mechanic\'s job may require expertise in all parts and components of a vehicle or the mechanic may specialize in a particular area such as engines, brakes, electrical systems or emissions equipment.</item>
+        <item>&lt;b>A mechanic may work for a shop that does tune ups and general maintenance.&lt;/b></item>
+        <item>Automotive mechanics may be employed by many different types of companies. Car dealerships commonly have a repair and maintenance department that employs mechanics. A car mechanic can also find work at repair shops, service stations and automobile leasing companies. Jobs of this type can also be obtained at car manufacturing plants where new cars require inspection before being shipped to dealerships. A significant number of car mechanics are self-employed.</item>
+        <item>&lt;b>Car mechanics should have good communication and analytical skills.&lt;/b></item>
+        <item>Before the advent of high tech automotive diagnostic equipment, a car mechanic commonly had to heavily rely upon knowledge and experience to isolate automotive problems and correct them. Customers typically described the problem to the mechanic, and the mechanic put the car through a series of manual tests until the source of the problem was determined. After conferring with the customer on the options of repair and replacement costs, the car mechanic went to work to fix the problem.</item>
+        <item>&lt;b>A car mechanic can test or replace a vehicle\'s battery.&lt;/b></item>
+        <item>Although a car mechanic today still benefits from hands-on experience, he or she is also generally required to know how to use electronic equipment and specialized software that helps diagnose automotive problems. This sophisticated equipment can be used to measure pressurized systems, analyze electrical system problems and diagnose engine and carburetor glitches. One of the earliest and most used electronic diagnostic systems analyzes automobile emissions to determine if they meet standards imposed by environmental protection agencies.</item>
+        <item>&lt;b>A car mechanic may choose to work at a car dealership.&lt;/b></item>
+        <item>Success as a car mechanic normally requires good communication skills and good analytical abilities. Non-professionals commonly lack the language skills to clearly describe automotive problems, so a mechanic is regularly required to interpret their descriptions of a car’s malfunctions.</item>
+        <item>&lt;b>Car mechanics know how to use power tools, such as an air wrench&lt;/b></item>
+        <item>A high school diploma or equivalent is usually required of potential car mechanics. Classes in computer operations, math, mechanical analysis and science are strongly preferred for aspiring automotive technicians. A considerable and growing number of employers require applicants for this position to complete an automotive repair training program at a local college or vocational school. Professional certification is also sometimes required to be hired as a car mechanic.</item>
+        <item>&lt;b>Car mechanics are responsible for replacing a vehicle\'s fluids.&lt;/b></item>
+        <item>&lt;b>Today\'s mechanics need to be able to interface with a car\'s onboard computer.&lt;/b></item>
+        <item>&lt;b>It became mandatory for cars to have on-board diagnostic computers in 1996.&lt;/b></item>
+    </string-array>
+
 </resources>
