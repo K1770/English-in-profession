@@ -23,6 +23,9 @@
             android:name=".PDFViewActivity"
             android:exported="false" />
         <activity
+            android:name=".ui.mechanics.CarMechanicsActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.home.activity.EnglishVocForComputerActivity"
             android:exported="false" />
         <activity
