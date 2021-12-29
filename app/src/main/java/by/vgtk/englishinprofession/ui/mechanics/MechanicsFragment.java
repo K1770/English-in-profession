@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
 import by.vgtk.englishinprofession.R;
@@ -23,10 +24,34 @@ public class MechanicsFragment extends Fragment {
         binding = FragmentMechanicsBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        Button button = (Button) root.findViewById(R.id.buttonCarMechanics);
-        button.setOnClickListener(new View.OnClickListener() {
+        CardView cardView1 = (CardView) root.findViewById(R.id.car_mechanics_card_view1);
+        cardView1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent=new Intent(getContext(), CarMechanicsActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        CardView cardView2 = (CardView) root.findViewById(R.id.car_mechanics_card_view2);
+        cardView2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent=new Intent(getContext(), CarMechanicsAnatomyActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        CardView cardView3 = (CardView) root.findViewById(R.id.car_mechanics_card_view3);
+        cardView3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent=new Intent(getContext(), CarMechanicsEnginesActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        CardView cardView4 = (CardView) root.findViewById(R.id.car_mechanics_card_view4);
+        cardView4.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent=new Intent(getContext(), CarMechanicsElectricalSystemActivity.class);
                 startActivity(intent);
             }
         });

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false"
+    app:layout_constraintWidth_default="percent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/CarMechanicsElectricalSystemActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical"
+        app:layout_scrollFlags="scroll">
+
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsElectricalSystem1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/electrical_system"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsElectricalSystem2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/apart_from_the_main"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsElectricalSystem1" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsElectricalSystem3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/earth_return_system"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsElectricalSystem2" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsElectricalSystem4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/in_a_negative_earth_system"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsElectricalSystem3" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsElectricalSystem5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/current_voltage_and_resistance"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsElectricalSystem4" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsElectricalSystem6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/the_extent_to_which"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsElectricalSystem5" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsElectricalSystem7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/positive_and_negative_polarity"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsElectricalSystem6" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsElectricalSystem8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/electricity_flows_from"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsElectricalSystem7" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsElectricalSystem9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/short_circuits_and_fuses"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsElectricalSystem8" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsElectricalSystem10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/if_the_wrong_sized_wire"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsElectricalSystem9" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsElectricalSystem11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/the_fuse_box_is_often"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsElectricalSystem10" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsElectricalSystem12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/to_guard_against_this"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsElectricalSystem11" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsElectricalSystem13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/series_and_parallel_circuits"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsElectricalSystem12" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsElectricalSystem14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/a_circuit_usually_includes_more"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsElectricalSystem13" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsElectricalSystem15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ancillary_circuits"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsElectricalSystem14" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsElectricalSystem16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/the_starter_motor_has"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsElectricalSystem15" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsElectricalSystem17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wires_and_printed_circuits"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsElectricalSystem16" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsElectricalSystem18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The instrument connections to this printed circuit are removed by squeezing the integral catches on each end.\nWire and cable sizes are classified by the maximum amperage that they can carry safely.\nA complex network of wires runs through the car. To avoid confusion, each wire is colour coded (but only within the car: there is no national or international system of colour-coding).\nMost car handbooks and service manuals include a wiring diagram which can be difficult to follow.\nThe colour-coding, however, is a useful guide to tracing wiring.\nWhere wires run side-by-side they are bound together in a bundle, in a plastic or fabric sheath, to keep them tidy and less difficult to fit .\nThis bundle of wires stretches over the length of the car, with single wires or small groups of wires emerging where necessary, and is called the wiring loom.\nModern cars often need room for many wires in confined spaces. Some manufacturers now use printed circuits instead of bundles of wires, particularly at the rear of the instrument panel.\nPrinted circuits are plastic sheets on which copper tracks have been 'printed'. Components are plugged directly into the tracks."
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsElectricalSystem17" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

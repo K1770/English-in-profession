@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false"
+    app:layout_constraintWidth_default="percent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/CarMechanicsEngineActivity1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical"
+        app:layout_scrollFlags="scroll">
+
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/types_of_engine"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/basically_the_engines_are_of"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsEngines1" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/types_of_design"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsEngines2" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reciprocating_engine_in_reciprocating_engine"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsEngines3" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/types_of_fuel_used"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsEngines4" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/on_the_basis_of_types_of_fuel"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsEngines5" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cycle_of_operation"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsEngines6" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/on_the_basis_of_cycle_of"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsEngines7" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/number_of_strokes"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsEngines8" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/on_the_basis_of_number"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsEngines9" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "@string/type_of_ignition"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsEngines10" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/on_the_basis_of_ignition"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsEngines11" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "@string/number_of_cylinders"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsEngines12" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/on_the_basis_of_number_of_cylinders"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsEngines13" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "@string/arrangement_of_cylinders"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsEngines14" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/on_the_basis_of_arrangement"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsEngines15" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "@string/valve_arrangement"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsEngines16" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/according_to_the_valve_arrangement"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsEngines17" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "@string/types_of_cooling"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsEngines18" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/on_the_basis_of_types_of_cooling"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsEngines19" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "@string/beside_above_types_of_engine"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsEngines20" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "@string/speed"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsEngines21" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/on_the_basis_of_speed"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsEngines22" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "@string/method_of_fuel_injection"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsEngines23" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/on_the_basis_of_method_of_fuel_injection"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsEngines24" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "@string/method_of_governing"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsEngines25" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hit_and_miss_governed_engine"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsEngines26" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "@string/application"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsEngines27" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsEngines29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stationary_engine_stationary"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsEngines28" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -12,6 +12,7 @@ import android.widget.ExpandableListView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
@@ -33,26 +34,35 @@ public class HomeFragment extends Fragment {
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        Button button = (Button) root.findViewById(R.id.EnglishVocabularyForComputersButton);
-        button.setOnClickListener(new View.OnClickListener() {
+        CardView cardView = (CardView) root.findViewById(R.id.english_voc_for_computer_card_view1);
+        cardView.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent=new Intent(getContext(), EnglishVocForComputerActivity.class);
                 startActivity(intent);
             }
         });
 
-        ExpandableListView elv = (ExpandableListView) root.findViewById(R.id.expListViewEICO);
-        elv.setAdapter(new EngInComOperationList());
+        CardView cardView1 = (CardView) root.findViewById(R.id.english_voc_for_computer_card_view2);
+        cardView1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent=new Intent(getContext(), ListViewActivity.class);
+                startActivity(intent);
+            }
+        });
 
-        elv.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
-            @Override
-            public boolean onChildClick(ExpandableListView parent, View v,
-                                        int groupPosition, int childPosition, long id) {
-                    String position = String.valueOf(groupPosition) + String.valueOf(childPosition);
-                    Intent intent=new Intent(getContext(), ListViewActivity.class);
-                    intent.putExtra("position", position);
-                    startActivity(intent);
-                return false;
+        CardView cardView2 = (CardView) root.findViewById(R.id.english_voc_for_computer_card_view3);
+        cardView2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent=new Intent(getContext(), EnglishVocForComputerActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        CardView cardView3 = (CardView) root.findViewById(R.id.english_voc_for_computer_card_view4);
+        cardView3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent=new Intent(getContext(), EnglishVocForComputerActivity.class);
+                startActivity(intent);
             }
         });
 
@@ -63,77 +73,5 @@ public class HomeFragment extends Fragment {
     public void onDestroyView() {
         super.onDestroyView();
         binding = null;
-    }
-
-    public class EngInComOperationList extends BaseExpandableListAdapter {
-
-        private String[] groups = {"Сomputer components"};
-
-        private String[][] children = {
-                {"Monitor", "Printer", "Speaker", "Memory unit", "KeyBoard", "Computer mouse",
-                        "Scanner", "CPU", "Headsets", "Webcam"},
-        };
-
-        @Override
-        public int getGroupCount() {
-            return groups.length;
-        }
-
-        @Override
-        public int getChildrenCount(int i) {
-            return children[i].length;
-        }
-
-        @Override
-        public Object getGroup(int i) {
-            return groups[i];
-        }
-
-        @Override
-        public Object getChild(int i, int i1) {
-            return children[i][i1];
-        }
-
-        @Override
-        public long getGroupId(int i) {
-            return i;
-        }
-
-        @Override
-        public long getChildId(int i, int i1) {
-            return i1;
-        }
-
-        @Override
-        public boolean hasStableIds() {
-            return true;
-        }
-
-        @Override
-        public View getGroupView(int i, boolean b, View view, ViewGroup viewGroup) {
-            if (view == null) {
-                LayoutInflater  ltInflater = getLayoutInflater();
-                view = ltInflater.inflate(R.layout.group_items, null, false);
-            }
-            TextView textView = (TextView) view.findViewById(R.id.listGroupData);
-            textView.setText(getGroup(i).toString());
-            return textView;
-        }
-
-        @Override
-        public View getChildView(int i, int i1, boolean b, View view, ViewGroup viewGroup) {
-            if (view == null) {
-                LayoutInflater  ltInflater = getLayoutInflater();
-                view = ltInflater.inflate(R.layout.child_items, null, false);
-            }
-            TextView textView = (TextView) view.findViewById(R.id.groupListChildItm);
-            textView.setText(getChild(i, i1).toString());
-            return textView;
-        }
-
-        @Override
-        public boolean isChildSelectable(int i, int i1) {
-            return true;
-        }
     }
 }

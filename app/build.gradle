@@ -54,5 +54,7 @@ dependencies {
         exclude group: 'org.apache.httpcomponents'
     }
 
+    implementation "androidx.cardview:cardview:1.0.0"
+
 
 }
