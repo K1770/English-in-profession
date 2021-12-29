@@ -26,6 +26,15 @@
             android:name=".ui.mechanics.CarMechanicsActivity"
             android:exported="false" />
         <activity
+            android:name=".ui.mechanics.CarMechanicsAnatomyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.mechanics.CarMechanicsEnginesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.mechanics.CarMechanicsElectricalSystemActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.home.activity.EnglishVocForComputerActivity"
             android:exported="false" />
         <activity

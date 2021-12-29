@@ -1,21 +1,230 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ui.mechanics.MechanicsFragment">
+    android:layout_height="wrap_content"
+    android:fillViewport="false"
+    app:layout_constraintWidth_default="percent">
 
-    <Button
-        android:id="@+id/buttonCarMechanics"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-medium"
-        android:letterSpacing="0"
-        android:text="English for car mechanics"
-        android:textAllCaps="false"
-        android:textSize="14sp"
-        app:layout_constraintTop_toTopOf="parent"/>
+        android:layout_height="match_parent"
+        tools:context=".ui.mechanics.MechanicsFragment">
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/car_mechanics_card_view1"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="6dp"
+            app:layout_constraintTop_toTopOf="parent"
+            card_view:cardCornerRadius="10dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/car_mechanics_image_view1"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:adjustViewBounds="false"
+                    android:contentDescription=""
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mechanic"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/car_mechanics_info_text1"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:text="English for car mechanics"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/car_mechanics_image_view1"
+                    app:layout_constraintWidth_percent=".65" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/car_mechanics_card_view2"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="6dp"
+            app:layout_constraintTop_toBottomOf="@+id/car_mechanics_card_view1"
+            card_view:cardCornerRadius="10dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/car_mechanics_image_view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:adjustViewBounds="false"
+                    android:contentDescription=""
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mechanic_anatomy"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/car_mechanics_info_text2"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:text="Car Anatomy"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/car_mechanics_image_view2"
+                    app:layout_constraintWidth_percent=".65" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/car_mechanics_card_view3"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="6dp"
+            app:layout_constraintTop_toBottomOf="@+id/car_mechanics_card_view2"
+            card_view:cardCornerRadius="10dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/car_mechanics_image_view3"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:adjustViewBounds="false"
+                    android:contentDescription=""
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/engines"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/car_mechanics_info_text3"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:text="Engines"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/car_mechanics_image_view3"
+                    app:layout_constraintWidth_percent=".65" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/car_mechanics_card_view4"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="6dp"
+            app:layout_constraintTop_toBottomOf="@+id/car_mechanics_card_view3"
+            card_view:cardCornerRadius="10dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/car_mechanics_image_view4"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:adjustViewBounds="false"
+                    android:contentDescription=""
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mechanic_electrical"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/car_mechanics_info_text4"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:text="Electrical System"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/car_mechanics_image_view4"
+                    app:layout_constraintWidth_percent=".65" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--Button
+            android:id="@+id/buttonCarMechanics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0"
+            android:text="English for car mechanics"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/buttonCarMechanicsAnatomy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0"
+            android:text="Car Anatomy"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/buttonCarMechanics" />
+
+        <Button
+            android:id="@+id/buttonCarMechanicsEngines"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0"
+            android:text="Engines"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/buttonCarMechanicsAnatomy" />
+
+        <Button
+            android:id="@+id/buttonCarMechanicsElectricalSystem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0"
+            android:text="Electrical System"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/buttonCarMechanicsEngines" /-->
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

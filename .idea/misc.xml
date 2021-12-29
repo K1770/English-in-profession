@@ -5,9 +5,13 @@
       <map>
         <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1125" />
         <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1125" />
-        <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/activity_car_mechanics.xml" value="0.1" />
+        <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/activity111.xml" value="0.1105072463768116" />
+        <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/activity_car_mechanics.xml" value="0.33" />
+        <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/activity_car_mechanics_anatomy.xml" value="0.19101123595505617" />
+        <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/activity_car_mechanics_electrical_system.xml" value="0.25" />
+        <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/activity_car_mechanics_engine.xml" value="0.19688598694123555" />
         <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/activity_english_voc_for_computer.xml" value="0.2" />
-        <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/activity_list_view.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/activity_list_view.xml" value="0.5" />
         <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/activity_list_view01.xml" value="0.1" />
         <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/activity_main2.xml" value="0.22" />
@@ -19,8 +23,8 @@
         <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/content_main.xml" value="0.1" />
         <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/fragment_computer_parts.xml" value="0.1" />
         <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/fragment_gallery.xml" value="0.2" />
-        <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/fragment_home.xml" value="0.25" />
-        <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/fragment_mechanics.xml" value="0.1" />
+        <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/fragment_mechanics.xml" value="0.33" />
         <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/fragment_monitor.xml" value="0.25" />
         <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/fragment_printer.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/fragment_roaders.xml" value="0.1" />

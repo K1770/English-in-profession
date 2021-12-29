@@ -1,27 +1,196 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.fragment.app.FragmentContainerView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/fragment_container_view"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" />
-
-
-
-
-<!--androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    tools:openDrawer="start">
+    android:layout_height="wrap_content"
+    android:fillViewport="false"
+    app:layout_constraintWidth_default="percent">
 
-    <include
-        android:id="@+id/app_bar_main"
-        layout="@layout/app_bar_main"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ActivityComputerComponents"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-</androidx.drawerlayout.widget.DrawerLayout -->
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical"
+        app:layout_scrollFlags="scroll">
 
+        <TextView
+            android:id="@+id/textViewComputerComponent1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/computer_components"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            app:layout_constraintTop_toTopOf="parent"/>
 
+        <TextView
+            android:id="@+id/textViewComputerComponent2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/monitor"
+            app:layout_constraintTop_toBottomOf="@id/textViewComputerComponent1" />
+
+        <ImageView
+            android:id="@+id/imageViewComputerComponent1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/monitor"
+            app:layout_constraintTop_toBottomOf="@+id/textViewComputerComponent2" />
+
+        <TextView
+            android:id="@+id/textViewComputerComponent3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/printer"
+            app:layout_constraintTop_toBottomOf="@id/imageViewComputerComponent1" />
+
+        <ImageView
+            android:id="@+id/imageViewComputerComponent2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/printer"
+            app:layout_constraintTop_toBottomOf="@+id/textViewComputerComponent3" />
+
+        <TextView
+            android:id="@+id/textViewComputerComponent4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/speaker"
+            app:layout_constraintTop_toBottomOf="@id/imageViewComputerComponent2" />
+
+        <ImageView
+            android:id="@+id/imageViewComputerComponent3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/speaker"
+            app:layout_constraintTop_toBottomOf="@+id/textViewComputerComponent4" />
+
+        <TextView
+            android:id="@+id/textViewComputerComponent5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/memory"
+            app:layout_constraintTop_toBottomOf="@id/imageViewComputerComponent3"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <ImageView
+            android:id="@+id/imageViewComputerComponent4"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/memory"
+            app:layout_constraintTop_toBottomOf="@+id/textViewComputerComponent5" />
+
+        <TextView
+            android:id="@+id/textViewComputerComponent6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/keyboard"
+            app:layout_constraintTop_toBottomOf="@id/imageViewComputerComponent4"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <ImageView
+            android:id="@+id/imageViewComputerComponent5"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/keyboard"
+            app:layout_constraintTop_toBottomOf="@+id/textViewComputerComponent6" />
+
+        <TextView
+            android:id="@+id/textViewComputerComponent7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mouse"
+            app:layout_constraintTop_toBottomOf="@id/imageViewComputerComponent5"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <ImageView
+            android:id="@+id/imageViewComputerComponent6"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/mouse"
+            app:layout_constraintTop_toBottomOf="@+id/textViewComputerComponent7" />
+
+        <TextView
+            android:id="@+id/textViewComputerComponent8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/scanner"
+            app:layout_constraintTop_toBottomOf="@id/imageViewComputerComponent6"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <ImageView
+            android:id="@+id/imageViewComputerComponent7"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/scanner"
+            app:layout_constraintTop_toBottomOf="@+id/textViewComputerComponent8" />
+
+        <TextView
+            android:id="@+id/textViewComputerComponent9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cpu"
+            app:layout_constraintTop_toBottomOf="@id/imageViewComputerComponent7"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <ImageView
+            android:id="@+id/imageViewComputerComponent8"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/cpu"
+            app:layout_constraintTop_toBottomOf="@+id/textViewComputerComponent9" />
+
+        <TextView
+            android:id="@+id/textViewComputerComponent10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/headsets"
+            app:layout_constraintTop_toBottomOf="@id/imageViewComputerComponent8"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <ImageView
+            android:id="@+id/imageViewComputerComponent9"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/headsets"
+            app:layout_constraintTop_toBottomOf="@+id/textViewComputerComponent10" />
+
+        <TextView
+            android:id="@+id/textViewComputerComponent11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/webcam"
+            app:layout_constraintTop_toBottomOf="@id/imageViewComputerComponent9"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <ImageView
+            android:id="@+id/imageViewComputerComponent10"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/webcam"
+            app:layout_constraintTop_toBottomOf="@+id/textViewComputerComponent11" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

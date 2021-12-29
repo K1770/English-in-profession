@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false"
+    app:layout_constraintWidth_default="percent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/CarMechanicsAnatomyActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical"
+        app:layout_scrollFlags="scroll">
+
+        <fragment
+            android:id="@+id/youtube_player_fragment_car_mechanics_anatomy"
+            android:name="com.google.android.youtube.player.YouTubePlayerFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsAnatomy1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/car_anatomy_or_how_a_car_works"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            app:layout_constraintTop_toBottomOf="@id/youtube_player_fragment_car_mechanics_anatomy" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsAnatomy2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/learn_all_about_car_anatomy"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsAnatomy1" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsAnatomy3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/car_parts"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsAnatomy2" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsAnatomy4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vehicle_consists_of_several"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsAnatomy3" />
+
+        <ImageView
+            android:id="@+id/imageViewCarMechanicsAnatomy1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/carparts1"
+            app:layout_constraintTop_toBottomOf="@+id/textViewCarMechanicsAnatomy4" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsAnatomy5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/let_s_study_the_main_units_and_component"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/imageViewCarMechanicsAnatomy1" />
+
+        <ImageView
+            android:id="@+id/imageViewCarMechanicsAnatomy2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/carparts2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewCarMechanicsAnatomy5"
+            app:layout_constraintWidth_percent=".4" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsAnatomy6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/car_body"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/imageViewCarMechanicsAnatomy2"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsAnatomy5"
+            app:layout_constraintWidth_percent=".6" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsAnatomy7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="4dp"
+            android:paddingEnd="2dp"
+            android:text="@string/the_car_body_is_the_main"
+            app:layout_constraintStart_toEndOf="@+id/imageViewCarMechanicsAnatomy2"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsAnatomy6"
+            app:layout_constraintWidth_percent=".6" />
+
+        <ImageView
+            android:id="@+id/imageViewCarMechanicsAnatomy3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/carparts3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewCarMechanicsAnatomy2"
+            app:layout_constraintWidth_percent=".4" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsAnatomy8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/car_engine"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/imageViewCarMechanicsAnatomy3"
+            app:layout_constraintTop_toBottomOf="@id/imageViewCarMechanicsAnatomy2"
+            app:layout_constraintWidth_percent=".6" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsAnatomy9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="4dp"
+            android:paddingEnd="2dp"
+            android:text="@string/the_engine_is_the_heart_of_a_car"
+            app:layout_constraintStart_toEndOf="@+id/imageViewCarMechanicsAnatomy3"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsAnatomy8"
+            app:layout_constraintWidth_percent=".6" />
+
+        <ImageView
+            android:id="@+id/imageViewCarMechanicsAnatomy4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/carparts4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewCarMechanicsAnatomy9"
+            app:layout_constraintWidth_percent=".4" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsAnatomy10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/car_transmission"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/imageViewCarMechanicsAnatomy4"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsAnatomy9"
+            app:layout_constraintWidth_percent=".6" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsAnatomy11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="4dp"
+            android:paddingEnd="2dp"
+            android:text="@string/transmission_transmits_moment"
+            app:layout_constraintStart_toEndOf="@+id/imageViewCarMechanicsAnatomy4"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsAnatomy10"
+            app:layout_constraintWidth_percent=".6" />
+
+        <ImageView
+            android:id="@+id/imageViewCarMechanicsAnatomy5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/carparts5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewCarMechanicsAnatomy4"
+            app:layout_constraintWidth_percent=".4" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsAnatomy12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/car_suspension"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/imageViewCarMechanicsAnatomy5"
+            app:layout_constraintTop_toBottomOf="@id/imageViewCarMechanicsAnatomy4"
+            app:layout_constraintWidth_percent=".6" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsAnatomy13"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="4dp"
+            android:paddingEnd="2dp"
+            android:text="@string/running_gear_consist_of_the_frame"
+            app:layout_constraintStart_toEndOf="@+id/imageViewCarMechanicsAnatomy5"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsAnatomy12"
+            app:layout_constraintWidth_percent=".6" />
+
+        <ImageView
+            android:id="@+id/imageViewCarMechanicsAnatomy6"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/carparts6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewCarMechanicsAnatomy5"
+            app:layout_constraintWidth_percent=".4" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsAnatomy14"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/car_steering"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/imageViewCarMechanicsAnatomy6"
+            app:layout_constraintTop_toBottomOf="@id/imageViewCarMechanicsAnatomy5"
+            app:layout_constraintWidth_percent=".6" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsAnatomy15"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="4dp"
+            android:paddingEnd="2dp"
+            android:text="@string/vehicle_steering_mechanisms"
+            app:layout_constraintStart_toEndOf="@+id/imageViewCarMechanicsAnatomy6"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsAnatomy14"
+            app:layout_constraintWidth_percent=".6" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsAnatomy16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/car_repair_school"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsAnatomy15" />
+
+        <TextView
+            android:id="@+id/textViewCarMechanicsAnatomy17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/in_order_to_explore"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textViewCarMechanicsAnatomy16" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
+    <!--app:layout_constraintStart_toStartOf="parent"-->
