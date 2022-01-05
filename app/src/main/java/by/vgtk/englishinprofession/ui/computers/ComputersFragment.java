@@ -1,37 +1,26 @@
-package by.vgtk.englishinprofession.ui.home;
+package by.vgtk.englishinprofession.ui.computers;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.BaseExpandableListAdapter;
-import android.widget.Button;
-import android.widget.ExpandableListAdapter;
-import android.widget.ExpandableListView;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
 
 import by.vgtk.englishinprofession.R;
-import by.vgtk.englishinprofession.databinding.FragmentHomeBinding;
-import by.vgtk.englishinprofession.ui.home.activity.EnglishVocForComputerActivity;
-import by.vgtk.englishinprofession.ui.home.activity.ListViewActivity;
+import by.vgtk.englishinprofession.databinding.FragmentComputersBinding;
 
-public class HomeFragment extends Fragment {
+public class ComputersFragment extends Fragment {
 
-    private HomeViewModel homeViewModel;
-    private FragmentHomeBinding binding;
+    private FragmentComputersBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        homeViewModel =
-                new ViewModelProvider(this).get(HomeViewModel.class);
 
-        binding = FragmentHomeBinding.inflate(inflater, container, false);
+        binding = FragmentComputersBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         CardView cardView = (CardView) root.findViewById(R.id.english_voc_for_computer_card_view1);
@@ -53,7 +42,7 @@ public class HomeFragment extends Fragment {
         CardView cardView2 = (CardView) root.findViewById(R.id.english_voc_for_computer_card_view3);
         cardView2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent=new Intent(getContext(), EnglishVocForComputerActivity.class);
+                Intent intent=new Intent(getContext(), ComputersTestActivity.class);
                 startActivity(intent);
             }
         });

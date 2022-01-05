@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false"
+    app:layout_constraintWidth_default="percent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/BuildersBricks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical"
+        app:layout_scrollFlags="scroll">
+
+        <fragment
+            android:id="@+id/youtube_player_fragment_builders_bricks"
+            android:name="com.google.android.youtube.player.YouTubePlayerFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/buttonBuildersBricks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0"
+            android:text="Bricks"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@+id/youtube_player_fragment_builders_bricks" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

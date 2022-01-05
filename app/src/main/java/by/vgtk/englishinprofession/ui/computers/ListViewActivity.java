@@ -1,14 +1,10 @@
-package by.vgtk.englishinprofession.ui.home.activity;
+package by.vgtk.englishinprofession.ui.computers;
 
 import android.os.Bundle;
-import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.navigation.ui.AppBarConfiguration;
 
 import by.vgtk.englishinprofession.R;
-import by.vgtk.englishinprofession.databinding.ActivityListViewBinding;
-import by.vgtk.englishinprofession.fragments.ComputerPartsFragment;
 
 public class ListViewActivity extends AppCompatActivity {
 

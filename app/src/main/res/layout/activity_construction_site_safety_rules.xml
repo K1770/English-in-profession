@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false"
+    app:layout_constraintWidth_default="percent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/BuildersSafetyRules"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical"
+        app:layout_scrollFlags="scroll">
+
+        <fragment
+            android:id="@+id/youtube_player_fragment_builders_safety_rules"
+            android:name="com.google.android.youtube.player.YouTubePlayerFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewBuildersSafetyRules1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_10_simple_construction_site_safety_rules"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            app:layout_constraintTop_toBottomOf="@id/youtube_player_fragment_builders_safety_rules" />
+
+        <TextView
+            android:id="@+id/textViewBuildersSafetyRules2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/construction_sites_are_dangerous"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersSafetyRules1" />
+
+        <TextView
+            android:id="@+id/textViewBuildersSafetyRules3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_1_wear_your_ppe_at_all_times"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersSafetyRules2" />
+
+        <TextView
+            android:id="@+id/textViewBuildersSafetyRules4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/when_you_enter_the_site"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersSafetyRules3" />
+
+        <TextView
+            android:id="@+id/textViewBuildersSafetyRules5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_2_do_not_start_work_without_an_induction"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersSafetyRules4" />
+
+        <TextView
+            android:id="@+id/textViewBuildersSafetyRules6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/each_site_has_its_unique"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersSafetyRules5" />
+
+        <TextView
+            android:id="@+id/textViewBuildersSafetyRules7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_3_keep_a_tidy_site"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersSafetyRules6" />
+
+        <TextView
+            android:id="@+id/textViewBuildersSafetyRules8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/construction_work_is_messy_slips"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersSafetyRules7" />
+
+        <TextView
+            android:id="@+id/textViewBuildersSafetyRules9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_4_do_not_put_yourself_or_others_at_risk"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersSafetyRules8" />
+
+        <TextView
+            android:id="@+id/textViewBuildersSafetyRules10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/actions_speak_louder_than"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersSafetyRules9" />
+
+        <TextView
+            android:id="@+id/textViewBuildersSafetyRules11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_5_follow_safety_signs_and_procedures"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersSafetyRules10" />
+
+        <TextView
+            android:id="@+id/textViewBuildersSafetyRules12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/follow_construction_safety_signs"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersSafetyRules11" />
+
+        <TextView
+            android:id="@+id/textViewBuildersSafetyRules13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_6_never_work_in_unsafe_areas"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersSafetyRules12" />
+
+        <TextView
+            android:id="@+id/textViewBuildersSafetyRules14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/make_sure_your_work_area"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersSafetyRules13" />
+
+        <TextView
+            android:id="@+id/textViewBuildersSafetyRules15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_7_report_defects_and_near_misses"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersSafetyRules14" />
+
+        <TextView
+            android:id="@+id/textViewBuildersSafetyRules16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/if_you_notice_a_problem"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersSafetyRules15" />
+
+        <TextView
+            android:id="@+id/textViewBuildersSafetyRules17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_8_never_tamper_with_equipment"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersSafetyRules16" />
+
+        <TextView
+            android:id="@+id/textViewBuildersSafetyRules18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/if_somethings_not_working"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersSafetyRules17" />
+
+        <TextView
+            android:id="@+id/textViewBuildersSafetyRules19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_9_use_the_right_equipment"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersSafetyRules18" />
+
+        <TextView
+            android:id="@+id/textViewBuildersSafetyRules20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/one_tool_does_not_fit_all"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersSafetyRules19" />
+
+        <TextView
+            android:id="@+id/textViewBuildersSafetyRules21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_10_if_in_doubt_ask"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersSafetyRules20" />
+
+        <TextView
+            android:id="@+id/textViewBuildersSafetyRules22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/unsure_what_to_do_or_how"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersSafetyRules21" />
+
+        <TextView
+            android:id="@+id/textViewBuildersSafetyRules23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/if_you_need_help_or_further"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersSafetyRules22" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
