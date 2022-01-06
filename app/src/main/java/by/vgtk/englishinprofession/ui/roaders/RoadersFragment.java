@@ -13,14 +13,10 @@ import android.widget.ExpandableListView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.lifecycle.ViewModelProvider;
 
 import by.vgtk.englishinprofession.PDFViewActivity;
 import by.vgtk.englishinprofession.R;
 import by.vgtk.englishinprofession.databinding.FragmentRoadersBinding;
-import by.vgtk.englishinprofession.ui.home.HomeFragment;
-import by.vgtk.englishinprofession.ui.home.activity.EnglishVocForComputerActivity;
-import by.vgtk.englishinprofession.ui.home.activity.ListViewActivity;
 
 
 public class RoadersFragment extends Fragment {

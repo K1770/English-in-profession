@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/buildersProfessionsDescriptionActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_scrollFlags="scroll"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <TextView
+            android:id="@+id/textViewBuildersProfessionsDescription1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bricklayer"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewBuildersProfessionsDescription2"
+            android:text="@string/bricklayer_is_a_tradesman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersProfessionsDescription1"/>
+
+        <ImageView
+            android:id="@+id/imageViewBuildersProfessionsDescription1"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/bricklayer"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBuildersProfessionsDescription2" />
+
+        <TextView
+            android:id="@+id/textViewBuildersProfessionsDescription3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/joiner"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewBuildersProfessionsDescription1" />
+
+        <TextView
+            android:id="@+id/textViewBuildersProfessionsDescription4"
+            android:text="@string/joiner_is_a_man"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersProfessionsDescription3"/>
+
+        <ImageView
+            android:id="@+id/imageViewBuildersProfessionsDescription2"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/joiner"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBuildersProfessionsDescription4" />
+
+        <TextView
+            android:id="@+id/textViewBuildersProfessionsDescription5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/paper_hanger"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewBuildersProfessionsDescription2" />
+
+        <TextView
+            android:id="@+id/textViewBuildersProfessionsDescription6"
+            android:text="@string/a_paper_hanger_covers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersProfessionsDescription5"/>
+
+        <ImageView
+            android:id="@+id/imageViewBuildersProfessionsDescription3"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/paper_hanger"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBuildersProfessionsDescription6" />
+
+        <TextView
+            android:id="@+id/textViewBuildersProfessionsDescription7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/slater_and_tiler"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewBuildersProfessionsDescription3" />
+
+        <TextView
+            android:id="@+id/textViewBuildersProfessionsDescription8"
+            android:text="@string/job_holders_in_this_unit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersProfessionsDescription7"/>
+
+        <ImageView
+            android:id="@+id/imageViewBuildersProfessionsDescription4"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/slater"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBuildersProfessionsDescription8" />
+
+
+        <TextView
+            android:id="@+id/textViewBuildersProfessionsDescription11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/plasterers"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewBuildersProfessionsDescription4" />
+
+        <TextView
+            android:id="@+id/textViewBuildersProfessionsDescription12"
+            android:text="@string/plasterers_are_responsible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersProfessionsDescription11"/>
+
+        <ImageView
+            android:id="@+id/imageViewBuildersProfessionsDescription6"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/platers"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBuildersProfessionsDescription12" />
+
+        <TextView
+            android:id="@+id/textViewBuildersProfessionsDescription13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/painter"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewBuildersProfessionsDescription6" />
+
+        <TextView
+            android:id="@+id/textViewBuildersProfessionsDescription14"
+            android:text="@string/house_painters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersProfessionsDescription13"/>
+
+        <ImageView
+            android:id="@+id/imageViewBuildersProfessionsDescription7"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/painter"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBuildersProfessionsDescription14" />
+
+        <TextView
+            android:id="@+id/textViewBuildersProfessionsDescription15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/facing_worker_tiler"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewBuildersProfessionsDescription7" />
+
+        <TextView
+            android:id="@+id/textViewBuildersProfessionsDescription16"
+            android:text="@string/the_profession_of"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersProfessionsDescription15"/>
+
+        <ImageView
+            android:id="@+id/imageViewBuildersProfessionsDescription8"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/facing_worker"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBuildersProfessionsDescription16" />
+
+        <TextView
+            android:id="@+id/textViewBuildersProfessionsDescription17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/glazier"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewBuildersProfessionsDescription8" />
+
+        <TextView
+            android:id="@+id/textViewBuildersProfessionsDescription18"
+            android:text="@string/one_of_the_construction_professions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersProfessionsDescription17"/>
+
+        <ImageView
+            android:id="@+id/imageViewBuildersProfessionsDescription9"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/glazier"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBuildersProfessionsDescription18" />
+
+        <TextView
+            android:id="@+id/textViewBuildersProfessionsDescription19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/plumber"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewBuildersProfessionsDescription9" />
+
+        <TextView
+            android:id="@+id/textViewBuildersProfessionsDescription20"
+            android:text="@string/a_plumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/textViewBuildersProfessionsDescription19"/>
+
+        <ImageView
+            android:id="@+id/imageViewBuildersProfessionsDescription10"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/plumber"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBuildersProfessionsDescription20" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

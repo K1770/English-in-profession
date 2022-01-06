@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EnglishInProfession">
         <activity
-            android:name=".ui.home.activity.ListViewActivity"
+            android:name=".ui.computers.ListViewActivity"
             android:exported="false" />
         <activity
             android:name=".ui.roaders.RoadersVideoActivity"
@@ -35,7 +35,39 @@
             android:name=".ui.mechanics.CarMechanicsElectricalSystemActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.home.activity.EnglishVocForComputerActivity"
+            android:name=".ui.computers.EnglishVocForComputerActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.builders.BuildersProfessionsDescriptionActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.builders.BuildersVocabulary"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.builders.BuildersConstructionSiteSafetyRules"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.builders.BuildersBooksActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.builders.BuildersToolsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.builders.BuildersMaterialsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.builders.BuildersBricksActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.computers.ComputersTestActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity3"

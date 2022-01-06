@@ -300,5 +300,515 @@
     <string name="the_starter_motor_has">The starter motor has its own heavy cable, direct from the battery. The ignition circuit furnishes the high-tension impulses to the sparkplugs; and the charging system includes the generator , which recharges the battery. All the other circuits are called ancillary (subsidiary) circuits.\nMost are wired through the ignition switch , so that they work only when the ignition is switched on.\nThis prevents you accidentally leaving something switched on which might cause the battery to go flat.\nThe side and tail lights, however, which you may need to leave on when the car is parked, are always wired independently of the ignition switch.\nWhen fitting extra accessories, such as a rear window heater which consumes a heavy current, always wire it through the ignition switch.\nSome ancillary components can be operated without the ignition turned on by turning the switch to the \'auxiliary\' position. A radio is usually wired through this switch, so that it can be played with the engine off.</string>
     <string name="wires_and_printed_circuits">Wires and printed circuits</string>
     <string name="computer_components">Computer components</string>
+    <string name="joiner">Joiner</string>
+    <string name="joiner_is_a_man">Joiner is a man who makes joinery and works mainly at the bench on wood, which has been cut and shaped by the machinists. His work is finer than the carpenter’s, much of it being highly finished and done in a joinery shop which is not exposed to weather.</string>
+    <string name="bricklayer_is_a_tradesman">Bricklayer is a tradesman who builds and repairs brickwork, lays and joints salt glazed stoneware drains, sets, chimney pots, manhole frames and fireplaces. He renders brickwork, including the insides of manholes. A sewer and tunnel bricklayer is a specialized bricklayer. He lays the bricks one on the top of another and puts mortar between them with a trowel .</string>
+    <string name="bricklayer">BrickLayer</string>
+    <string name="a_paper_hanger_covers">A paper-hanger covers interior walls or ceilings of rooms with decorative wallpaper or fabric, or attach advertising posters on surfaces such as walls and billboards. May remove old materials or prepare surfaces to be papered.</string>
+    <string name="paper_hanger">Paper-hanger</string>
+    <string name="job_holders_in_this_unit">Job holders in this unit group cover roofs and exterior walls with felting, sheeting, slates, tiles and thatch to provide a waterproof surface.\n\nTasks\nSeals edges of roof with mortar and ensures that joints are watertight.\nLays, aligns and secures successive overlapping layers of roofing material.\nLays and secures underfelt and covers with hot bitumen or other adhesive compound.\nCuts wooden battens, felt and underfelt to required size.\nMeasures roof or exterior wall and calculates required amounts of underfelt, tiles, slates or thatching material.</string>
+    <string name="slater_and_tiler">Slater and tiler</string>
+    <string name="plasterers_are_responsible">Plasterers are responsible for all of the tasks necessary to apply stucco and plaster to a building. They ensure that doors and windows are covered with cloths so they are protected from the mortar and erect the scaffolds when working on ceilings. Plasterers also mix their own work materials.\n1) Applies coats of plaster to interior walls, ceilings, and partitions of buildings, to produce finished surface, according to blueprints, architect\'s drawings, or oral instructions, using handtools and portable power tools: Directs workers to mix plaster to desired consistency and to erect scaffolds.\n2) Spreads plaster over lath or masonry base, using trowel, and smooths plaster with darby and float to attain uniform thickness.</string>
+    <string name="plasterers">Plasterers</string>
+    <string name="painter">Painter</string>
+    <string name="house_painters">House painters and related workers prepare surfaces of houses and other structures for painting, apply protective and decorative coats of paint or similar materials, or cover interior walls and ceilings of buildings with wallpaper or other finishes.</string>
+    <string name="facing_worker_tiler">Facing worker-tiler</string>
+    <string name="glazier">Glazier</string>
+    <string name="the_profession_of">The profession of a tiler is one of the most popular in the construction industry, and specialists in thfield can easily find a job in construction companies and enterprises.\n\nFacing worker-tiler\nfinishes building facades with ceramic and concrete slabs;\nperforms laying of stone and concrete steps of external stairs;\ninstalls bollards of fences and parapets made of hewn stone;\nperforms facing of embankments and bridge spans;\nperforms work on the installation of tiled floors and facing the internal surfaces of the walls of baths, laundries, sanitary units, bathrooms;\nsorts ceramic tiles by type, size, color;\nprepares solutions, cleans surfaces before laying ceramic tiles;\nrepair a tiled surface.</string>
+    <string name="one_of_the_construction_professions">One of the construction professions is the profession of a glazier. This specialization is General construction, and the employee specializes in performing glass work, glazing wooden bindings with thin glass, thick glass and special brands of glass in the form of bindings. He is also engaged in the installation of double-glazed Windows, installation of fences made of glass blocks and fiberglass. He can also lead teams of glaziers in the construction, repair and reconstruction of structures and buildings.</string>
+    <string name="plumber">Plumber</string>
+    <string name="a_plumber">A plumber is a master of utility networks, a worker who is engaged in the repair, operation and installation of various sanitary systems for industrial and domestic needs.\n\nThe profession of a plumber requires the ability of a master to maintain three main sanitary systems: water supply; drainage (Sewerage); heating (steam or water). Sometimes people call plumbers plumbers, but they must be able to perform the entire range of work – from cleaning the bathroom drain and repairing the toilet tank to installing water pipes. Now the installation of individual heating boilers (gas, coal or wood) with a water heating system connected to them is very popular. Therefore, the master is required to improve their level of knowledge and master new promising areas of activity.</string>
+    <string name="_10_simple_construction_site_safety_rules">10 Simple Construction Site Safety Rules</string>
+    <string name="construction_sites_are_dangerous">Construction sites are dangerous places to work. Follow these 10 simple construction site safety rules to keep yourself, and others, safe. From wearing your PPE, to following procedures, you can help make your site a safer place to work, and prevent accidents. Construction sites are dangerous places to work. Every year, thousands of people are injured at work on construction sites. So, if you work in construction, it\'s even more important that you put health and safety into everything you do. Follow these 10 simple construction site safety rules to keep yourself, and others, safe.</string>
+    <string name="_1_wear_your_ppe_at_all_times">1. Wear your PPE at all times</string>
+    <string name="when_you_enter_the_site">When you enter the site, make sure you have the PPE you need. PPE is important, it\'s your last line of defence should you come into contact with a hazard on site. Hi-viz helps make sure you are seen. Safety boots give you grip and protect your feet. Hard hats are easily replaced, but your skull isn\'t. It can\'t protect you if you don\'t wear it. Wear your hard hat, safety boots and hi-viz vest as a minimum, along with any additional PPE required for the task being carried out.</string>
+    <string name="_2_do_not_start_work_without_an_induction">2. Do not start work without an induction</string>
+    <string name="each_site_has_its_unique">Each site has its unique hazards and work operations. No two sites are exactly the same. Make sure you know what is happening so that you can work safely. Inductions are a legal requirement on every construction site you work on. Your induction is important. It tells you where to sign in, where to go, what to do, and what to avoid. Don’t start work without one.</string>
+    <string name="_3_keep_a_tidy_site">3. Keep a tidy site</string>
+    <string name="construction_work_is_messy_slips">Construction work is messy. Slips and trips might not seem like a major problem compared to other high-risk work happening on the site, but don\'t be fooled. According to HSE statistics, slips and trips accounted for 30% of specified major injuries on construction sites (2016/17 – 2018/19). Remember to keep your work area tidy throughout your shift to reduce the number of slip and trip hazards. Pay particular attention to areas such as access and escape routes.</string>
+    <string name="_4_do_not_put_yourself_or_others_at_risk">4. Do not put yourself or others at risk</string>
+    <string name="actions_speak_louder_than">Actions speak louder than words. Especially on construction sites where one wrong move could put you in harm\'s way. Set a good example, think safe and act safely on site. You are responsible for your own behaviour. Construction sites are dangerous places to work. Make sure you remain safety aware throughout your shift.</string>
+    <string name="_5_follow_safety_signs_and_procedures">5. Follow safety signs and procedures</string>
+    <string name="follow_construction_safety_signs">Follow construction safety signs and procedures. These should be explained to you in your induction (rule number 2). Your employer should ensure a risk assessment is carried out for your activities. Make sure you read and understand it. Control measures are put in place for your safety. Make sure they are in place and working before you start.</string>
+    <string name="_6_never_work_in_unsafe_areas">6. Never work in unsafe areas</string>
+    <string name="make_sure_your_work_area">Make sure your work area is safe. Know what is happening around you. Be aware. According to HSE statistics, 14% of fatalities in construction were caused by something collapsing or overturning, and 11% by being struck by a moving vehicle (2014/15-2018/19). Don’t work at height without suitable guard rails or other fall prevention. Don’t enter unsupported trenches. Make sure you have safe access. Don’t work below crane loads or other dangerous operations.</string>
+    <string name="_7_report_defects_and_near_misses">7. Report defects and near misses</string>
+    <string name="if_you_notice_a_problem">If you notice a problem, don’t ignore it, report it to your supervisor immediately. Fill out a near-miss report, an incident report, or simply tell your supervisor. Whatever the procedure in place on your site for reporting issues, use it. Action can only be taken quickly if the management has been made aware of the problem. The sooner problems are resolved the less chance for an accident to occur.</string>
+    <string name="_8_never_tamper_with_equipment">8. Never tamper with equipment</string>
+    <string name="if_somethings_not_working">If somethings not working, or doesn\'t look right, follow rule number 7 and report it. Don\'t try and force something, or alter something, if you\'re trained to or supposed to. Never remove guard rails or scaffold ties. Do not remove machine guards. Do not attempt to fix defective equipment unless you are competent to do so. Do not ever tamper with equipment without authorisation.</string>
+    <string name="_9_use_the_right_equipment">9. Use the right equipment</string>
+    <string name="one_tool_does_not_fit_all">One tool does not fit all. Using the correct tool for the job will get it done quicker, and most importantly, safer. Visually check equipment is in good condition and safe to use before you start. Only use 110v equipment on the site. 240v equipment is strictly prohibited without prior authorisation from management and will only be used if no 110v alternative available and additional safety precautions are taken.</string>
+    <string name="_10_if_in_doubt_ask">10. If in doubt, ask</string>
+    <string name="unsure_what_to_do_or_how">Unsure what to do? Or how to do something safely? Or you think something is wrong? Stop work, and ask. It takes 5 minutes to check, but it might not be so easy to put things right if things go wrong. It\'s better to be safe than sorry. Mistakes on construction sites can cost lives, don’t let it be yours. If you need help or further information speak to your supervisor.</string>
+    <string name="if_you_need_help_or_further">If you need help or further information speak to your supervisor.</string>
 
+
+    <string-array name="buildersVocabularySpeakingStrings">
+        <item>arch</item>
+        <item>architecture</item>
+        <item>acetone</item>
+        <item>beam; girder</item>
+        <item>radiator</item>
+        <item>concrete</item>
+        <item>concrete mixer</item>
+        <item>bolt; screw-bolt</item>
+        <item>cobble; cobblestone; sett</item>
+        <item>bulldozer; dozer</item>
+        <item>bucket; pail</item>
+        <item>veranda; gallery</item>
+        <item>workbench</item>
+        <item>vertical; perpendicular</item>
+        <item>skylight; fanlight</item>
+        <item>explosion; burst</item>
+        <item>moisture; wet; damp</item>
+        <item>humidity; humidness; dampness; moistness</item>
+        <item>gutter; trough</item>
+        <item>gate</item>
+        <item>nut; screw-nut</item>
+        <item>gas welding</item>
+        <item>halogen bulb</item>
+        <item>plaster; gypsum</item>
+        <item>gypsum plasterboard</item>
+        <item>grate; grating</item>
+        <item>truck; lorry</item>
+        <item>primer</item>
+        <item>door</item>
+        <item>dismantling</item>
+        <item>wood</item>
+        <item>design</item>
+        <item>house; building</item>
+        <item>board</item>
+        <item>lumber; timber</item>
+        <item>drill</item>
+        <item>drain; drainage</item>
+        <item>bow; arc</item>
+        <item>shower</item>
+        <item>smokestack; stack</item>
+        <item>hole</item>
+        <item>dowel; dowel pin; joggle</item>
+        <item>reinforced concrete</item>
+        <item>housing; lodging; living accommodations</item>
+        <item>fence; fencing</item>
+        <item>rivet</item>
+        <item>putty</item>
+        <item>stopcock; cock; turncock</item>
+        <item>bar</item>
+        <item>building</item>
+        <item>lime; calcium hydroxide; calcium hydrate; lime hydrate</item>
+        <item>insulation; detachment</item>
+        <item>engineer</item>
+        <item>tool</item>
+        <item>inside; interior</item>
+        <item>mortgage</item>
+        <item>cable; line; transmission line</item>
+        <item>bricklayer</item>
+        <item>fireplace</item>
+        <item>rosin; resin</item>
+        <item>eaves</item>
+        <item>helmet</item>
+        <item>flat; apartment</item>
+        <item>brick</item>
+        <item>mallet</item>
+        <item>valve</item>
+        <item>glue; adhesive</item>
+        <item>paste</item>
+        <item>carpet; rug; carpeting</item>
+        <item>mat</item>
+        <item>well</item>
+        <item>column; pillar</item>
+        <item>compressor</item>
+        <item>air conditioner</item>
+        <item>container</item>
+        <item>contract</item>
+        <item>supervision; supervising; superintendence; oversight</item>
+        <item>ditch; trench</item>
+        <item>crane</item>
+        <item>paint; colouring material</item>
+        <item>roof</item>
+        <item>sledgehammer</item>
+        <item>lacquer</item>
+        <item>laminate</item>
+        <item>scaffold</item>
+        <item>stairway; staircase</item>
+        <item>ladder</item>
+        <item>linoleum; lino</item>
+        <item>sheet; plate</item>
+        <item>elevator; lift</item>
+        <item>shovel; spade</item>
+        <item>chandelier</item>
+        <item>painter</item>
+        <item>marchioness</item>
+        <item>trowel</item>
+        <item>material</item>
+        <item>sack; bag</item>
+        <item>mosaic</item>
+        <item>hammer</item>
+        <item>mounting; assembly</item>
+        <item>bridge</item>
+        <item>pavement</item>
+        <item>awning; sunshade; sunblind</item>
+        <item>tilt; lean</item>
+        <item>pump</item>
+        <item>floor</item>
+        <item>suspended ceiling</item>
+        <item>surveillance</item>
+        <item>noncombustible; incombustible</item>
+        <item>carrier; bearer; porter</item>
+        <item>wallpaper</item>
+        <item>fireproof</item>
+        <item>barrier</item>
+        <item>support</item>
+        <item>lighting; illumination</item>
+        <item>hole; opening</item>
+        <item>hue; shade</item>
+        <item>office</item>
+        <item>socket</item>
+        <item>control; instrument panel; board</item>
+        <item>arcade</item>
+        <item>soldering-iron</item>
+        <item>solder</item>
+        <item>facade; frontage; frontal</item>
+        <item>front; fore</item>
+        <item>electrical switch</item>
+        <item>bannister; banister; balustrade; balusters; handrail</item>
+        <item>hinge; flexible joint</item>
+        <item>plan; program; programme</item>
+        <item>plank</item>
+        <item>plastic panel</item>
+        <item>mold; mould; mildew</item>
+        <item>cooker; stove</item>
+        <item>plate</item>
+        <item>tile</item>
+        <item>density; denseness</item>
+        <item>bend; crook; twist; turn</item>
+        <item>subsoil; undersoil</item>
+        <item>contractor</item>
+        <item>porch</item>
+        <item>board; plank</item>
+        <item>ledge; shelf</item>
+        <item>crossbeam</item>
+        <item>threshold; limen</item>
+        <item>powder</item>
+        <item>supplier; provider</item>
+        <item>ceiling</item>
+        <item>ground; land; soil</item>
+        <item>deadline</item>
+        <item>device</item>
+        <item>hall; anteroom; antechamber; entrance hall; foyer; lobby; vestibule</item>
+        <item>conduction; conductivity; conductance</item>
+        <item>conductor</item>
+        <item>design</item>
+        <item>foreman</item>
+        <item>cuboid</item>
+        <item>bubble</item>
+        <item>dust</item>
+        <item>pedestal; plinth; footstall</item>
+        <item>schedule</item>
+        <item>layout</item>
+        <item>railing; rail; lath</item>
+        <item>socket</item>
+        <item>rotunda</item>
+        <item>tape-measure</item>
+        <item>gasket</item>
+        <item>welding</item>
+        <item>pile</item>
+        <item>bore bit; borer; rock drill; stone drill</item>
+        <item>light-emitting diode (LED); luminodiode</item>
+        <item>LED</item>
+        <item>arch</item>
+        <item>grid</item>
+        <item>silicone</item>
+        <item>sieve; screen</item>
+        <item>siphon; syphon</item>
+        <item>ramp; incline</item>
+        <item>gradient; slope</item>
+        <item>coating; coat</item>
+        <item>dormer; dormer window</item>
+        <item>mixture; blend; premix</item>
+        <item>demolition</item>
+        <item>agreement; contract</item>
+        <item>vessel</item>
+        <item>boilersuit</item>
+        <item>loan</item>
+        <item>shutter</item>
+        <item>steel</item>
+        <item>statics</item>
+        <item>glass</item>
+        <item>glass cutter; glass-cutter; glassworker; glazier; glazer</item>
+        <item>table</item>
+        <item>post; column; pillar</item>
+        <item>stirrup; stirrup iron</item>
+        <item>construction worker</item>
+        <item>scaffolding; staging</item>
+        <item>mortar</item>
+        <item>construction (site)</item>
+        <item>rafter</item>
+        <item>joint</item>
+        <item>subcontractor</item>
+        <item>care; maintenance; upkeep</item>
+        <item>thickness</item>
+        <item>tunnel</item>
+        <item>rip; rent; snag; split; tear</item>
+        <item>walkway; sidewalk; pavement</item>
+        <item>pipe</item>
+        <item>chimney</item>
+        <item>pipeline</item>
+        <item>toilet; lavatory; bathroom; water closet; closet; W.C.; loo</item>
+        <item>level</item>
+        <item>installation; installment</item>
+        <item>implement</item>
+        <item>plywood; plyboard</item>
+        <item>lantern</item>
+        <item>mold; mould; cast</item>
+        <item>antifungal (agent); fungicide; antimycotic (agent)</item>
+        <item>foundation</item>
+        <item>cement</item>
+        <item>goblet</item>
+        <item>loft; attic; garret</item>
+        <item>tile</item>
+        <item>spatula</item>
+        <item>putty; filler</item>
+        <item>hose; hosepipe</item>
+        <item>stucco</item>
+        <item>latch</item>
+        <item>(power) shovel; excavator; digger</item>
+        <item>electrician; line(s)man</item>
+        <item>enamel</item>
+        <item>energy-saving lamp</item>
+        <item>floor; stor(e)y</item>
+    </string-array>
+
+    <string-array name="buildersVocabularyStrings">
+        <item>арка - arch</item>
+        <item>архитектура - architecture</item>
+        <item>ацетон - acetone</item>
+        <item>балка, брус - beam; girder</item>
+        <item>батарея (отопления) - radiator</item>
+        <item>бетон - concrete</item>
+        <item>бетономешалка - concrete mixer</item>
+        <item>болт - bolt; screw-bolt</item>
+        <item>булыжник - cobble; cobblestone; sett</item>
+        <item>бульдозер - bulldozer; dozer</item>
+        <item>ведро - bucket; pail</item>
+        <item>веранда - veranda(h); gallery</item>
+        <item>верстак - workbench</item>
+        <item>вертикальный - vertical; perpendicular</item>
+        <item>верхний свет - skylight; fanlight</item>
+        <item>взрыв - explosion; burst</item>
+        <item>влага - moisture; wet; damp</item>
+        <item>влажность - humidity; humidness; dampness; moistness</item>
+        <item>водосточная канава - gutter; trough</item>
+        <item>ворота - gate</item>
+        <item>гайка - nut; screw-nut</item>
+        <item>газосварка - gas welding</item>
+        <item>галогеновая лампа - halogen bulb</item>
+        <item>гипс - plaster; gypsum</item>
+        <item>гипсокартон - gypsum plasterboard</item>
+        <item>грохот - grate; grating</item>
+        <item>грузовик - truck (AmE); lorry (BrE)</item>
+        <item>грунтовка - primer</item>
+        <item>дверь - door</item>
+        <item>демонтаж - dismantling</item>
+        <item>дерево - wood</item>
+        <item>дизайн - design</item>
+        <item>дом - house; building</item>
+        <item>доска - board</item>
+        <item>древесина - lumber; timber</item>
+        <item>дрель - drill</item>
+        <item>дренаж - drain; drainage</item>
+        <item>дуга - bow; arc</item>
+        <item>душ - shower</item>
+        <item>дымоход - smokestack; stack</item>
+        <item>дыра - hole</item>
+        <item>дюбель - dowel; dowel pin; joggle</item>
+        <item>железобетон - reinforced concrete</item>
+        <item>жилье - housing; lodging; living accommodations</item>
+        <item>забор - fence; fencing</item>
+        <item>заклепка - rivet</item>
+        <item>замазка - putty</item>
+        <item>запорный кран - stopcock; cock; turncock</item>
+        <item>засов - bar</item>
+        <item>здание - building</item>
+        <item>известь - lime; calcium hydroxide; calcium hydrate; lime hydrate</item>
+        <item>изоляция - insulation; detachment</item>
+        <item>инженер - engineer</item>
+        <item>инструмент - tool</item>
+        <item>интерьер - inside; interior</item>
+        <item>ипотека - mortgage</item>
+        <item>кабель - cable; line; transmission line</item>
+        <item>каменщик - bricklayer</item>
+        <item>камин - fireplace</item>
+        <item>канифоль - rosin; resin</item>
+        <item>карниз - eaves</item>
+        <item>каска, шлем - helmet</item>
+        <item>квартира - flat (BrE); apartment (AmE)</item>
+        <item>кирпич - brick</item>
+        <item>клапан - valve</item>
+        <item>клей - glue; adhesive (material / agent)</item>
+        <item>клейстер - paste</item>
+        <item>ковёр - carpet; rug; carpeting</item>
+        <item>коврик - mat</item>
+        <item>колодец - well</item>
+        <item>колонна - column; pillar</item>
+        <item>компрессор - compressor</item>
+        <item>кондиционер - air conditioner</item>
+        <item>контейнер - container</item>
+        <item>контракт - contract</item>
+        <item>контроль - supervision; supervising; superintendence; oversight</item>
+        <item>котлован - ditch; trench</item>
+        <item>кран (подъемный) - crane</item>
+        <item>краска - paint; colouring material</item>
+        <item>крыша - roof</item>
+        <item>кувалда - sledgehammer</item>
+        <item>лак - lacquer</item>
+        <item>ламинат - laminate</item>
+        <item>леса - scaffold</item>
+        <item>лестница - stairway; staircase</item>
+        <item>лестница (стремянка) - ladder</item>
+        <item>линолеум - linoleum; lino</item>
+        <item>лист - sheet; plate</item>
+        <item>лифт - elevator (AmE); lift (BrE)</item>
+        <item>лопата - shovel; spade</item>
+        <item>люстра - chandelier</item>
+        <item>маляр - painter</item>
+        <item>маркиза - marchioness</item>
+        <item>мастерок - trowel</item>
+        <item>материал - material</item>
+        <item>мешок - sack; bag</item>
+        <item>мозаика - mosaic</item>
+        <item>молоток - hammer</item>
+        <item>монтаж - mounting; assembly</item>
+        <item>мост - bridge</item>
+        <item>мостовая - pavement</item>
+        <item>навес - awning; sunshade; sunblind</item>
+        <item>наклон - tilt; lean</item>
+        <item>насос - pump</item>
+        <item>настил - floor(ing)</item>
+        <item>натяжной потолок - suspended ceiling</item>
+        <item>наблюдение (видео) - surveillance</item>
+        <item>негорючий - noncombustible; incombustible</item>
+        <item>носильщик - carrier; bearer; porter</item>
+        <item>обои - wallpaper</item>
+        <item>огнеупорный - fireproof</item>
+        <item>ограждение - barrier</item>
+        <item>опора - support</item>
+        <item>освещение - lighting; illumination</item>
+        <item>отверстие - hole; opening</item>
+        <item>оттенок - hue; shade</item>
+        <item>офис - (business) office</item>
+        <item>паз - socket</item>
+        <item>панель управления - control; instrument panel; board</item>
+        <item>пассаж - arcade</item>
+        <item>паяльник - soldering-iron</item>
+        <item>паять (припой) - solder</item>
+        <item>передний фасад - facade; frontage; frontal</item>
+        <item>передняя часть - front; forepart</item>
+        <item>переключатель - (electric(al)) switch</item>
+        <item>перила - bannister; banister; balustrade; balusters; handrail</item>
+        <item>петля - hinge; flexible joint</item>
+        <item>план - plan; program; programme</item>
+        <item>планка - plank</item>
+        <item>пластиковая панель - plastic panel</item>
+        <item>плесень - mold; mould; mildew</item>
+        <item>плита (на кухне) - cooker; stove</item>
+        <item>плита (пластина) - plate</item>
+        <item>плитка (кафельная) - tile</item>
+        <item>плотность - density; denseness</item>
+        <item>поворот - bend; crook; twist; turn</item>
+        <item>подпочва - subsoil; undersoil</item>
+        <item>подрядчик - contractor</item>
+        <item>подъезд - porch</item>
+        <item>половица - board; plank</item>
+        <item>полочка - ledge; shelf</item>
+        <item>поперечина (балка) - crossbeam</item>
+        <item>порог - threshold; limen</item>
+        <item>порошок - powder</item>
+        <item>поставщик - supplier; provider</item>
+        <item>потолок - ceiling</item>
+        <item>почва - ground; land; soil</item>
+        <item>предельный (по срокам) - deadline</item>
+        <item>приспособление - device</item>
+        <item>прихожая - hall; anteroom; antechamber; entrance hall; foyer; lobby; vestibule</item>
+        <item>проводимость - conduction; conductivity; conductance</item>
+        <item>проводник - conductor</item>
+        <item>проект (графический) - design</item>
+        <item>прораб - foreman</item>
+        <item>прямоугольный параллелепипед - cuboid</item>
+        <item>пузырь - bubble</item>
+        <item>пыль - dust</item>
+        <item>пьедестал - pedestal; plinth; footstall</item>
+        <item>расписание - schedule</item>
+        <item>расстановка - layout</item>
+        <item>рейка - railing; rail; lath</item>
+        <item>розетка - socket</item>
+        <item>ротонда - rotunda</item>
+        <item>рулетка (мерная лента) - tape-measure</item>
+        <item>сальник - gasket</item>
+        <item>сварка - welding</item>
+        <item>свая - pile</item>
+        <item>сверло - bore bit; borer; rock drill; stone drill</item>
+        <item>светодиод - light-emitting diode (LED); luminodiode</item>
+        <item>светодиодный - LED</item>
+        <item>свод - arch</item>
+        <item>сетка - grid</item>
+        <item>силикон - silicone</item>
+        <item>сито- sieve; screen</item>
+        <item>сифон - siphon; syphon</item>
+        <item>скат - ramp; incline</item>
+        <item>склон - gradient; slope</item>
+        <item>слой - coating; coat</item>
+        <item>слуховое окно - dormer; dormer window</item>
+        <item>смесь - mixture; blend; premix</item>
+        <item>снос - demolition</item>
+        <item>соглашение, договор - agreement; contract</item>
+        <item>сосуд - vessel</item>
+        <item>спецовка - boilersuit</item>
+        <item>ссуда - loan</item>
+        <item>ставень - shutter</item>
+        <item>сталь - steel</item>
+        <item>статика - statics</item>
+        <item>стекло - glass</item>
+        <item>стекольщик - glass cutter; glassworker; glazier; glazer</item>
+        <item>стол - table</item>
+        <item>столб - post; column; pillar</item>
+        <item>стремя - stirrup; stirrup iron</item>
+        <item>строитель - construction worker</item>
+        <item>строительные леса - scaffolding; staging</item>
+        <item>строительный раствор - mortar</item>
+        <item>стройка - construction (site)</item>
+        <item>стропило - rafter</item>
+        <item>стык - joint</item>
+        <item>субподрядчик - subcontractor</item>
+        <item>техническое обслуживание - care; maintenance; upkeep</item>
+        <item>толщина - thickness</item>
+        <item>тоннель - tunnel</item>
+        <item>трещина - rip; rent; snag; split; tear</item>
+        <item>тротуар - walkway; sidewalk; pavement</item>
+        <item>труба (для воды и т. д.) - pipe</item>
+        <item>труба (дымохода) - chimney</item>
+        <item>трубопровод - pipeline</item>
+        <item>уборная (туалет) - toilet; lavatory; bathroom; water closet; closet; W.C.; loo</item>
+        <item>уровень - level</item>
+        <item>установка - installation; installment</item>
+        <item>утварь - implement</item>
+        <item>фанера - plywood; plyboard</item>
+        <item>фонарь (крупный) - lantern</item>
+        <item>форма для отливки - mold; mould; cast</item>
+        <item>фунгициды - antifungal (agent); fungicide; antimycotic (agent)</item>
+        <item>фундамент - foundation</item>
+        <item>цемент - cement</item>
+        <item>чаша - goblet</item>
+        <item>чердак - loft; attic; garret</item>
+        <item>черепица - tile</item>
+        <item>шпатель - spatula</item>
+        <item>шпатлевка - putty; filler</item>
+        <item>шланг - hose; hosepipe</item>
+        <item>штукатурка - stucco</item>
+        <item>щеколда - latch</item>
+        <item>экскаватор - (power) shovel; excavator; digger</item>
+        <item>электрик - electrician; line(s)man</item>
+        <item>эмаль - enamel</item>
+        <item>энергосберегающая лампа - energy-saving lamp</item>
+        <item>этаж - floor (BrE); stor(e)y (AmE)</item>
+    </string-array>
 </resources>

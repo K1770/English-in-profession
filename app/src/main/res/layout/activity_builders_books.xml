@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false"
+    app:layout_constraintWidth_default="percent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/BuildersBooks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical"
+        app:layout_scrollFlags="scroll">
+
+        <Button
+            android:id="@+id/buttonBookEnglishForEngineersBuilders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0"
+            android:text="Английский для будущих инженеров-строителей"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/buttonBookReadingRules"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0"
+            android:text="Правила чтения в современном английском языке"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@+id/buttonBookEnglishForEngineersBuilders" />
+
+        <Button
+            android:id="@+id/buttonBookEnglishInTables"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0"
+            android:text="Английская грамматика в таблицах"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@+id/buttonBookReadingRules" />
+
+        <Button
+            android:id="@+id/buttonBookSafetyTechnique"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0"
+            android:text="Техника безопастности на строительной площадке"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@+id/buttonBookEnglishInTables" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -11,7 +11,7 @@
     android:id = "@+id/englishVocForComputerLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.home.activity.EnglishVocForComputerActivity"
+    tools:context=".ui.computers.EnglishVocForComputerActivity"
     android:orientation="vertical">
 
 
