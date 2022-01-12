@@ -36,7 +36,7 @@
                     android:adjustViewBounds="false"
                     android:contentDescription=""
                     android:scaleType="centerCrop"
-                    android:src="@drawable/stock_card"
+                    android:src="@drawable/builders_description"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -76,7 +76,6 @@
                     android:layout_height="120dp"
                     android:adjustViewBounds="false"
                     android:contentDescription=""
-                    android:scaleType="centerCrop"
                     android:src="@drawable/english_vocabulary_for_computers"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -118,7 +117,7 @@
                     android:adjustViewBounds="false"
                     android:contentDescription=""
                     android:scaleType="centerCrop"
-                    android:src="@drawable/stock_card"
+                    android:src="@drawable/builders_safety"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -200,7 +199,7 @@
                     android:adjustViewBounds="false"
                     android:contentDescription=""
                     android:scaleType="centerCrop"
-                    android:src="@drawable/books"
+                    android:src="@drawable/builders_device_and_tools"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -241,7 +240,7 @@
                     android:adjustViewBounds="false"
                     android:contentDescription=""
                     android:scaleType="centerCrop"
-                    android:src="@drawable/books"
+                    android:src="@drawable/builders_building_materials"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -283,7 +282,7 @@
                     android:adjustViewBounds="false"
                     android:contentDescription=""
                     android:scaleType="centerCrop"
-                    android:src="@drawable/stock_card"
+                    android:src="@drawable/builders_bricks"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
