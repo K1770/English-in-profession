@@ -7,36 +7,48 @@
     android:fillViewport="true"
     android:scrollbars="vertical">
 
-<LinearLayout
-    android:id = "@+id/englishVocForComputerLayout"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ui.computers.EnglishVocForComputerActivity"
-    android:orientation="vertical">
-
-
-    <fragment
-        android:id="@+id/youtube_player_fragment_english_voc_for_computer"
-        android:name="com.google.android.youtube.player.YouTubePlayerFragment"
+    <LinearLayout
+        android:id="@+id/englishVocForComputerLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        tools:context=".ui.computers.EnglishVocForComputerActivity">
+
+        <TextView
+            android:id="@+id/textViewBuildersTools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="English Vocabulary for Computers"
+            android:textAlignment="center"
+            android:textSize="22sp" />
+
+        <fragment
+            android:id="@+id/youtube_player_fragment_english_voc_for_computer"
+            android:name="com.google.android.youtube.player.YouTubePlayerFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textViewEvfc"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:paddingLeft="10dp"
-            android:layout_weight="1.0" />
+            android:layout_weight="1.0"
+            android:paddingTop="5dp" />
 
-    <!--Button
-        android:id="@+id/textSpeechComputerVocButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-medium"
-        android:letterSpacing="0"
-        android:onClick="textSpeechComputerVocButtonOnClick"
-        android:text="Play"
-        android:textSize="14sp"/-->
-</LinearLayout>
+        <!--Button
+            android:id="@+id/textSpeechComputerVocButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0"
+            android:onClick="textSpeechComputerVocButtonOnClick"
+            android:text="Play"
+            android:textSize="14sp"/-->
+    </LinearLayout>
 </ScrollView>

@@ -9,18 +9,29 @@
         android:id="@+id/englishForCarMechanicsActivity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_scrollFlags="scroll"
         android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp">
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        app:layout_scrollFlags="scroll">
+
+        <TextView
+            android:id="@+id/headerEnglishForCarMechanics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/carMechanicsHeader"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            app:layout_constraintTop_toBottomOf="@+id/textViewEnglishForCarMechanics1"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textViewEnglishForCarMechanics1"
-            android:text="@string/carMechanicsMainText1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:text="@string/carMechanicsMainText1"
+            app:layout_constraintTop_toBottomOf="@+id/headerEnglishForCarMechanics" />
 
         <ImageView
             android:id="@+id/imageViewEnglishForCarMechanics1"
@@ -33,16 +44,16 @@
 
         <TextView
             android:id="@+id/textViewEnglishForCarMechanics2"
-            android:text="@string/carMechanicsMainText2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@string/carMechanicsMainText2"
             app:layout_constraintTop_toBottomOf="@+id/imageViewEnglishForCarMechanics1" />
 
         <TextView
             android:id="@+id/textViewEnglishForCarMechanics3"
-            android:text="@string/carMechanicsMainText3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@string/carMechanicsMainText3"
             app:layout_constraintTop_toBottomOf="@+id/textViewEnglishForCarMechanics2" />
 
         <ImageView
@@ -56,16 +67,16 @@
 
         <TextView
             android:id="@+id/textViewEnglishForCarMechanics4"
-            android:text="@string/carMechanicsMainText4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@string/carMechanicsMainText4"
             app:layout_constraintTop_toBottomOf="@+id/imageViewEnglishForCarMechanics2" />
 
         <TextView
             android:id="@+id/textViewEnglishForCarMechanics5"
-            android:text="@string/carMechanicsMainText5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@string/carMechanicsMainText5"
             app:layout_constraintTop_toBottomOf="@+id/textViewEnglishForCarMechanics4" />
 
         <ImageView
@@ -79,16 +90,16 @@
 
         <TextView
             android:id="@+id/textViewEnglishForCarMechanics6"
-            android:text="@string/carMechanicsMainText6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@string/carMechanicsMainText6"
             app:layout_constraintTop_toBottomOf="@+id/imageViewEnglishForCarMechanics3" />
 
         <TextView
             android:id="@+id/textViewEnglishForCarMechanics7"
-            android:text="@string/carMechanicsMainText7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@string/carMechanicsMainText7"
             app:layout_constraintTop_toBottomOf="@+id/textViewEnglishForCarMechanics6" />
 
         <ImageView
@@ -102,16 +113,16 @@
 
         <TextView
             android:id="@+id/textViewEnglishForCarMechanics8"
-            android:text="@string/carMechanicsMainText8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@string/carMechanicsMainText8"
             app:layout_constraintTop_toBottomOf="@+id/imageViewEnglishForCarMechanics4" />
 
         <TextView
             android:id="@+id/textViewEnglishForCarMechanics9"
-            android:text="@string/carMechanicsMainText9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@string/carMechanicsMainText9"
             app:layout_constraintTop_toBottomOf="@+id/textViewEnglishForCarMechanics8" />
 
         <ImageView
@@ -125,23 +136,23 @@
 
         <TextView
             android:id="@+id/textViewEnglishForCarMechanics10"
-            android:text="@string/carMechanicsMainText10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@string/carMechanicsMainText10"
             app:layout_constraintTop_toBottomOf="@+id/imageViewEnglishForCarMechanics5" />
 
         <TextView
             android:id="@+id/textViewEnglishForCarMechanics11"
-            android:text="@string/carMechanicsMainText11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@string/carMechanicsMainText11"
             app:layout_constraintTop_toBottomOf="@+id/textViewEnglishForCarMechanics10" />
 
         <TextView
             android:id="@+id/textViewEnglishForCarMechanics12"
-            android:text="@string/carMechanicsMainText12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@string/carMechanicsMainText12"
             app:layout_constraintTop_toBottomOf="@+id/textViewEnglishForCarMechanics11" />
 
         <ImageView
@@ -155,9 +166,9 @@
 
         <TextView
             android:id="@+id/textViewEnglishForCarMechanics13"
-            android:text="@string/carMechanicsMainText13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@string/carMechanicsMainText13"
             app:layout_constraintTop_toBottomOf="@+id/imageViewEnglishForCarMechanics6" />
 
         <ImageView
@@ -171,9 +182,9 @@
 
         <TextView
             android:id="@+id/textViewEnglishForCarMechanics14"
-            android:text="@string/carMechanicsMainText14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@string/carMechanicsMainText14"
             app:layout_constraintTop_toBottomOf="@+id/imageViewEnglishForCarMechanics7" />
 
         <ImageView
@@ -181,8 +192,8 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:paddingTop="10dp"
-            android:paddingBottom="10dp"
             android:src="@drawable/mechanics7"
+            app:layout_constraintBottom_toBottomOf="@+id/englishForCarMechanicsActivity"
             app:layout_constraintTop_toBottomOf="@+id/textViewEnglishForCarMechanics14" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,6 +10,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:id="@+id/english_in_computerId"
         tools:context=".ui.computers.ComputersFragment">
 
         <androidx.cardview.widget.CardView
@@ -19,7 +20,7 @@
             android:layout_height="160dp"
             android:layout_gravity="center"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="6dp"
+            android:layout_marginTop="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="6dp"
             app:layout_constraintTop_toTopOf="parent"
@@ -148,8 +149,9 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="6dp"
             android:layout_marginRight="10dp"
-            android:layout_marginBottom="6dp"
+            android:layout_marginBottom="16dp"
             app:layout_constraintTop_toBottomOf="@+id/english_voc_for_computer_card_view3"
+            app:layout_constraintBottom_toBottomOf="@+id/english_in_computerId"
             card_view:cardCornerRadius="10dp">
 
             <androidx.constraintlayout.widget.ConstraintLayout

@@ -7,10 +7,33 @@
     android:scrollbars="vertical">
 
     <LinearLayout
-        android:id="@+id/buildersVocabularyActivity"
+        android:id="@+id/BuildersSafetyRules"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:paddingTop="4dp"
+        android:layout_marginRight="15dp"
+        android:paddingBottom="10dp"
         android:orientation="vertical"
-        tools:context=".ui.builders.BuildersVocabulary">
+        app:layout_scrollFlags="scroll">
+
+        <TextView
+            android:id="@+id/textViewBuildersVocabulary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/builders_vocabulary_title"
+            android:textAlignment="center"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:id="@+id/buildersVocabularyActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="@+id/textViewBuildersVocabulary"
+            tools:context=".ui.builders.BuildersVocabulary"
+            tools:ignore="MissingConstraints" />
     </LinearLayout>
+
+
 </ScrollView>

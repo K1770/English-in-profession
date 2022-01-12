@@ -36,6 +36,7 @@ public class ComputersTestActivity extends AppCompatActivity {
             "Interface", "interface", "intf", "Intf",
             "public", "protected", "private", "All of the mentioned",
     };
+    //flag == index
     int flag = 0;
     public static int correct = 0, wrong = 0;
 
@@ -48,16 +49,18 @@ public class ComputersTestActivity extends AppCompatActivity {
 
         TextView textView = (TextView) findViewById(R.id.DispName);
 
+        tv = (TextView) findViewById(R.id.tvque);
         submitButton = (Button) findViewById(R.id.button3);
         quitButton = (Button) findViewById(R.id.buttonquit);
-        tv = (TextView) findViewById(R.id.tvque);
+
+        tv.setText(questions[flag]);
 
         radio_g = (RadioGroup) findViewById(R.id.answersgrp);
         rb1 = (RadioButton) findViewById(R.id.radioButton);
         rb2 = (RadioButton) findViewById(R.id.radioButton2);
         rb3 = (RadioButton) findViewById(R.id.radioButton3);
         rb4 = (RadioButton) findViewById(R.id.radioButton4);
-        tv.setText(questions[flag]);
+
         rb1.setText(opt[0]);
         rb2.setText(opt[1]);
         rb3.setText(opt[2]);
