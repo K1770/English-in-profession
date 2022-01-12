@@ -222,6 +222,7 @@
         <item>www (worldwide web) - всемирная сеть</item>
     </string-array>
 
+    <string name="carMechanicsHeader">English for car mechanics</string>
     <string name="carMechanicsMainText1">A car mechanic is a service professional who maintains and repairs automotive vehicles. He or she might work on cars and trucks that operate using a traditional fuel like gasoline, or a non-traditional fuel such as ethanol or electricity. This type of mechanic\'s job may require expertise in all parts and components of a vehicle or the mechanic may specialize in a particular area such as engines, brakes, electrical systems or emissions equipment.</string>
     <string name="carMechanicsMainText2"><b>A mechanic may work for a shop that does tune ups and general maintenance</b></string>
     <string name="carMechanicsMainText3">Automotive mechanics may be employed by many different types of companies. Car dealerships commonly have a repair and maintenance department that employs mechanics. A car mechanic can also find work at repair shops, service stations and automobile leasing companies. Jobs of this type can also be obtained at car manufacturing plants where new cars require inspection before being shipped to dealerships. A significant number of car mechanics are self-employed.</string>
@@ -341,6 +342,10 @@
     <string name="_10_if_in_doubt_ask">10. If in doubt, ask</string>
     <string name="unsure_what_to_do_or_how">Unsure what to do? Or how to do something safely? Or you think something is wrong? Stop work, and ask. It takes 5 minutes to check, but it might not be so easy to put things right if things go wrong. It\'s better to be safe than sorry. Mistakes on construction sites can cost lives, don’t let it be yours. If you need help or further information speak to your supervisor.</string>
     <string name="if_you_need_help_or_further">If you need help or further information speak to your supervisor.</string>
+
+
+    <string name="builders_vocabulary_title">Builders vocabulary</string>
+    <string name="literature">Literature</string>
 
 
     <string-array name="buildersVocabularySpeakingStrings">

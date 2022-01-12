@@ -45,18 +45,20 @@ public class EnglishVocForComputerActivity extends AppCompatActivity implements 
         TextView tw = findViewById(R.id.textViewEvfc);
         tw.setText(formatText());
 
+        linearLayout = (LinearLayout) findViewById(R.id.englishVocForComputerLayout);
+        linearLayout.setPadding(0, 0, 0, 60);
 
-        linearLayout=(LinearLayout)findViewById(R.id.englishVocForComputerLayout);
-
+        //get words for speech
         Resources res = getResources();
         String[] words = res.getStringArray(R.array.englishVocComputerSpeakStrings);
 
+        //get words for buttons
         Resources buttonTextRes = getResources();
         String[] buttonsText = res.getStringArray(R.array.englishVocComputerButtonStrings);
         speakButtons = new Button[buttonsText.length];
 
-        for(int i=0; i<speakButtons.length; i++) {
-            speakButtons[i]=new Button(getApplicationContext());
+        for (int i = 0; i < speakButtons.length; i++) {
+            speakButtons[i] = new Button(getApplicationContext());
             speakButtons[i].setId(i);
             speakButtons[i].setAllCaps(false);
             speakButtons[i].setTextAlignment(TextView.TEXT_ALIGNMENT_TEXT_START);
@@ -78,7 +80,7 @@ public class EnglishVocForComputerActivity extends AppCompatActivity implements 
                         Log.e("TTS", "This Language is not supported");
                     } else {
                         Log.e("TTS", "Success init");
-                }
+                    }
 
                 } else {
                     Log.e("TTS", "Initilization Failed!");
@@ -97,8 +99,7 @@ public class EnglishVocForComputerActivity extends AppCompatActivity implements 
     }
 
     @Override
-    public void onClick(View view)
-    {
+    public void onClick(View view) {
         speakOut(view.getTag().toString());
     }
 

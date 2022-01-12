@@ -45,6 +45,24 @@
         <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/layout/nav_header_main.xml" value="0.1" />
         <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
         <entry key="..\:/Users/Lazjn/AndroidStudioProjects/EnglishInProfession/app/src/main/res/menu/main_activity3.xml" value="0.1" />
+        <entry key="..\:/Users/grunt/AndroidStudioProjects/English-in-profession/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2712820512820513" />
+        <entry key="..\:/Users/grunt/AndroidStudioProjects/English-in-profession/app/src/main/res/layout/activity_builders_books.xml" value="0.259375" />
+        <entry key="..\:/Users/grunt/AndroidStudioProjects/English-in-profession/app/src/main/res/layout/activity_builders_bricks.xml" value="0.259375" />
+        <entry key="..\:/Users/grunt/AndroidStudioProjects/English-in-profession/app/src/main/res/layout/activity_builders_materials.xml" value="0.259375" />
+        <entry key="..\:/Users/grunt/AndroidStudioProjects/English-in-profession/app/src/main/res/layout/activity_builders_professions_description.xml" value="0.1599229287090559" />
+        <entry key="..\:/Users/grunt/AndroidStudioProjects/English-in-profession/app/src/main/res/layout/activity_builders_tools.xml" value="0.259375" />
+        <entry key="..\:/Users/grunt/AndroidStudioProjects/English-in-profession/app/src/main/res/layout/activity_buildrers_vocabulary.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/grunt/AndroidStudioProjects/English-in-profession/app/src/main/res/layout/activity_car_mechanics.xml" value="0.24868483978957437" />
+        <entry key="..\:/Users/grunt/AndroidStudioProjects/English-in-profession/app/src/main/res/layout/activity_car_mechanics_anatomy.xml" value="0.21732157177225342" />
+        <entry key="..\:/Users/grunt/AndroidStudioProjects/English-in-profession/app/src/main/res/layout/activity_car_mechanics_electrical_system.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/grunt/AndroidStudioProjects/English-in-profession/app/src/main/res/layout/activity_car_mechanics_engine.xml" value="0.22311827956989247" />
+        <entry key="..\:/Users/grunt/AndroidStudioProjects/English-in-profession/app/src/main/res/layout/activity_computers_test.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/grunt/AndroidStudioProjects/English-in-profession/app/src/main/res/layout/activity_construction_site_safety_rules.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/grunt/AndroidStudioProjects/English-in-profession/app/src/main/res/layout/activity_english_voc_for_computer.xml" value="0.2" />
+        <entry key="..\:/Users/grunt/AndroidStudioProjects/English-in-profession/app/src/main/res/layout/activity_list_view.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/grunt/AndroidStudioProjects/English-in-profession/app/src/main/res/layout/fragment_builders.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/grunt/AndroidStudioProjects/English-in-profession/app/src/main/res/layout/fragment_computers.xml" value="0.1" />
+        <entry key="..\:/Users/grunt/AndroidStudioProjects/English-in-profession/app/src/main/res/layout/fragment_mechanics.xml" value="0.2708333333333333" />
       </map>
     </option>
   </component>

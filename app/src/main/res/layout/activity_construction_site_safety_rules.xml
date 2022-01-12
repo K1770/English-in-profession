@@ -12,33 +12,37 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
         android:layout_marginRight="15dp"
         android:layout_marginBottom="50dp"
         android:orientation="vertical"
         app:layout_scrollFlags="scroll">
+
+        <TextView
+            android:id="@+id/textViewBuildersSafetyRules1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="@string/_10_simple_construction_site_safety_rules"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toTopOf="@+id/youtube_player_fragment_builders_safety_rules"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <fragment
             android:id="@+id/youtube_player_fragment_builders_safety_rules"
             android:name="com.google.android.youtube.player.YouTubePlayerFragment"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/textViewBuildersSafetyRules1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/_10_simple_construction_site_safety_rules"
-            android:textAlignment="center"
-            android:textSize="22sp"
-            app:layout_constraintTop_toBottomOf="@id/youtube_player_fragment_builders_safety_rules" />
+            app:layout_constraintTop_toBottomOf="@+id/textViewBuildersSafetyRules1" />
 
         <TextView
             android:id="@+id/textViewBuildersSafetyRules2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingTop="5dp"
             android:text="@string/construction_sites_are_dangerous"
-            app:layout_constraintTop_toBottomOf="@id/textViewBuildersSafetyRules1" />
+            app:layout_constraintTop_toBottomOf="@id/youtube_player_fragment_builders_safety_rules" />
 
         <TextView
             android:id="@+id/textViewBuildersSafetyRules3"

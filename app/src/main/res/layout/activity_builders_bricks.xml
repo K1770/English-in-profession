@@ -15,14 +15,49 @@
         android:layout_marginRight="15dp"
         android:layout_marginBottom="50dp"
         android:orientation="vertical"
+        android:paddingTop="8dp"
         app:layout_scrollFlags="scroll">
+
+        <TextView
+            android:id="@+id/textViewBuildersToolsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="Bricks"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toTopOf="@id/youtube_player_fragment_builders_bricks"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <fragment
             android:id="@+id/youtube_player_fragment_builders_bricks"
             android:name="com.google.android.youtube.player.YouTubePlayerFragment"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:layout_marginBottom="20dp"
+            app:layout_constraintBottom_toTopOf="@id/textViewBuildersTools"
+            app:layout_constraintTop_toTopOf="@id/textViewBuildersToolsTitle" />
+
+        <View
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#868686"
+            app:layout_constraintBottom_toTopOf="@id/textViewBuildersTools"
+            app:layout_constraintTop_toBottomOf="@+id/youtube_player_fragment_builders_bricks" />
+
+        <TextView
+            android:id="@+id/textViewBuildersTools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:layout_marginTop="5dp"
+            android:paddingBottom="0dp"
+            android:text="Book"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            app:layout_constraintTop_toBottomOf="@id/youtube_player_fragment_builders_bricks" />
+
 
         <Button
             android:id="@+id/buttonBuildersBricks"
@@ -33,7 +68,7 @@
             android:text="Bricks"
             android:textAllCaps="false"
             android:textSize="14sp"
-            app:layout_constraintTop_toBottomOf="@+id/youtube_player_fragment_builders_bricks" />
+            app:layout_constraintTop_toBottomOf="@+id/textViewBuildersTools" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
