@@ -1,5 +1,6 @@
 package by.vgtk.englishinprofession.ui.roaders;
 
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
 import android.content.Intent;
@@ -11,12 +12,14 @@ import android.widget.BaseExpandableListAdapter;
 import android.widget.Button;
 import android.widget.ExpandableListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
 import by.vgtk.englishinprofession.PDFViewActivity;
 import by.vgtk.englishinprofession.R;
 import by.vgtk.englishinprofession.databinding.FragmentRoadersBinding;
+import by.vgtk.englishinprofession.ui.computers.EnglishVocForComputerActivity;
 
 
 public class RoadersFragment extends Fragment {
@@ -29,6 +32,33 @@ public class RoadersFragment extends Fragment {
         binding = FragmentRoadersBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
+        CardView cardViewBook = (CardView) root.findViewById(R.id.roaders_card_view1);
+        cardViewBook.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), PDFViewActivity.class);
+                intent.putExtra("bookLink", "https://drive.google.com/file/d/1j5qesLJe1TDuej6wCfz12Ds1j8hNEd8Q/view?usp=sharing");
+                startActivity(intent);
+            }
+        });
+
+        CardView cardViewTests = (CardView) root.findViewById(R.id.roaders_card_view2);
+        cardViewTests.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), RodersTestsActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        CardView cardViewVideo = (CardView) root.findViewById(R.id.roaders_card_view3);
+        cardViewVideo.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), PDFViewActivity.class);
+                intent.putExtra("bookLink", "https://drive.google.com/file/d/1j5qesLJe1TDuej6wCfz12Ds1j8hNEd8Q/view?usp=sharing");
+                startActivity(intent);
+            }
+        });
+
+
         ExpandableListView elv = (ExpandableListView) root.findViewById(R.id.expListViewEICO);
         elv.setAdapter(new RoadersFragment.RoadersExpandableList());
 
@@ -37,21 +67,21 @@ public class RoadersFragment extends Fragment {
             public boolean onChildClick(ExpandableListView parent, View v,
                                         int groupPosition, int childPosition, long id) {
                 String position = String.valueOf(groupPosition) + String.valueOf(childPosition);
-                Intent intent=new Intent(getContext(), RoadersVideoActivity.class);
+                Intent intent = new Intent(getContext(), RoadersVideoActivity.class);
                 intent.putExtra("linkPosition", position);
                 startActivity(intent);
                 return false;
             }
         });
 
-        Button button = (Button) root.findViewById(R.id.buttonRoadersBook);
-        button.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                Intent intent=new Intent(getContext(), PDFViewActivity.class);
-                intent.putExtra("bookLink", "https://drive.google.com/file/d/1j5qesLJe1TDuej6wCfz12Ds1j8hNEd8Q/view?usp=sharing");
-                startActivity(intent);
-            }
-        });
+//        Button button = (Button) root.findViewById(R.id.buttonRoadersBook);
+//        button.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View v) {
+//                Intent intent = new Intent(getContext(), PDFViewActivity.class);
+//                intent.putExtra("bookLink", "https://drive.google.com/file/d/1j5qesLJe1TDuej6wCfz12Ds1j8hNEd8Q/view?usp=sharing");
+//                startActivity(intent);
+//            }
+//        });
 
         return root;
     }
@@ -64,10 +94,11 @@ public class RoadersFragment extends Fragment {
 
     public class RoadersExpandableList extends BaseExpandableListAdapter {
 
-        private String[] groups = {"Tests", "Videos"};
+        //"Tests"
+        private String[] groups = {"Videos"};
 
+        //{"Test1", "Test2", "Test3"},
         private String[][] children = {
-                {"Test1", "Test2", "Test3"},
                 {"Video1", "Video2", "Video3"}
         };
 
