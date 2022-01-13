@@ -26,6 +26,9 @@
             android:name=".ui.roaders.RoadersVideoActivity"
             android:exported="false" />
         <activity
+            android:name=".ui.roaders.RodersTestsActivity"
+            android:exported="false" />
+        <activity
             android:name=".PDFViewActivity"
             android:exported="false" />
         <activity

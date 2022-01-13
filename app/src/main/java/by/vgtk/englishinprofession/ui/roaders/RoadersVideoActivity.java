@@ -23,8 +23,7 @@ public class RoadersVideoActivity extends AppCompatActivity implements YouTubePl
 
         YouTubePlayerFragment youTubePlayerFragment =
                 (YouTubePlayerFragment) getFragmentManager().findFragmentById(R.id.youtube_player_fragment_roaders_builders);
-        youTubePlayerFragment.initialize(PlayerConfig.API_KEY,
-                this);
+        youTubePlayerFragment.initialize(PlayerConfig.API_KEY, this);
     }
 
     private String getVideoLink(String position) {
