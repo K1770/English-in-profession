@@ -1,44 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.roaders.RoadersFragment">
 
-    <!--com.google.android.youtube.player.YouTubePlayerView
-        android:id="@+id/youtube_player_roaders_builders"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="start"
-        app:layout_constraintTop_toTopOf="parent"
-        /-->
-
-    <fragment
-        android:id="@+id/youtube_player_fragment_roaders_builders"
-        android:name="com.google.android.youtube.player.YouTubePlayerFragment"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <!--
-            app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-
-    ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fillViewport="true"
-        android:scrollbars="vertical"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="15dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp">
 
         <TextView
-            android:id="@+id/textViewEvfc"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:paddingLeft="10dp"
-            android:layout_weight="1.0" />
-    </ScrollView -->
+            android:id="@+id/roaders_videos_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Road builders video"
+            android:textAlignment="center"
+            android:textSize="22sp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <View
+            android:id="@+id/ViewBuildersProfessionsHr"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="#868686"
+            app:layout_constraintBottom_toTopOf="@id/roaders_video_name_1"
+            app:layout_constraintTop_toBottomOf="@+id/roaders_videos_title" />
+
+        <TextView
+            android:id="@+id/roaders_video_name_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="5dp"
+            android:text="Video 1"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_view_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:autoPlay="false"
+            app:videoId="d1lZpS7KU10" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="5dp"
+            android:text="Video 2"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_view_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:autoPlay="false"
+            app:videoId="bHOptfGtxWk" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="5dp"
+            android:text="Video 3"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_view_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:autoPlay="false"
+            app:videoId="64Xt74RJg1o" />
+    </LinearLayout>
+
+</ScrollView>
