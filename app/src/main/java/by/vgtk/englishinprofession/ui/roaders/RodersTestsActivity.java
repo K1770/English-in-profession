@@ -32,14 +32,6 @@ public class RodersTestsActivity extends AppCompatActivity {
             }
         });
 
-        Button btnTest3 = (Button) findViewById(R.id.roaders_btn_tests_3);
-        btnTest3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "test 3", Toast.LENGTH_SHORT).show();
-            }
-        });
-
     }
 
     @Override

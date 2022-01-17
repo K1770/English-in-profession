@@ -36,7 +36,7 @@
                     android:adjustViewBounds="false"
                     android:contentDescription=""
                     android:scaleType="centerCrop"
-                    android:src="@drawable/builders_description"
+                    android:src="@drawable/description_of_building_professions_logo"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -76,7 +76,7 @@
                     android:layout_height="120dp"
                     android:adjustViewBounds="false"
                     android:contentDescription=""
-                    android:src="@drawable/english_vocabulary_for_computers"
+                    android:src="@drawable/vocabulary_logo"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -117,7 +117,7 @@
                     android:adjustViewBounds="false"
                     android:contentDescription=""
                     android:scaleType="centerCrop"
-                    android:src="@drawable/builders_safety"
+                    android:src="@drawable/site_safety_rules_logo"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -158,7 +158,7 @@
                     android:adjustViewBounds="false"
                     android:contentDescription=""
                     android:scaleType="centerCrop"
-                    android:src="@drawable/books"
+                    android:src="@drawable/book_logo"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -168,7 +168,7 @@
                     android:layout_height="40dp"
                     android:layout_marginLeft="10dp"
                     android:paddingTop="10dp"
-                    android:text="Literature"
+                    android:text="Books"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/builders_image_view4"
                     app:layout_constraintWidth_percent=".65" />
@@ -199,7 +199,7 @@
                     android:adjustViewBounds="false"
                     android:contentDescription=""
                     android:scaleType="centerCrop"
-                    android:src="@drawable/builders_device_and_tools"
+                    android:src="@drawable/device_and_tools_logo"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -240,7 +240,7 @@
                     android:adjustViewBounds="false"
                     android:contentDescription=""
                     android:scaleType="centerCrop"
-                    android:src="@drawable/builders_building_materials"
+                    android:src="@drawable/building_materials_logo"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -282,7 +282,7 @@
                     android:adjustViewBounds="false"
                     android:contentDescription=""
                     android:scaleType="centerCrop"
-                    android:src="@drawable/builders_bricks"
+                    android:src="@drawable/bricks_logo"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
