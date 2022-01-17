@@ -34,7 +34,7 @@
                     android:layout_height="120dp"
                     android:adjustViewBounds="false"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/books"
+                    android:src="@drawable/book_logo"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -74,7 +74,7 @@
                     android:layout_height="120dp"
                     android:adjustViewBounds="false"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/tests"
+                    android:src="@drawable/test_logo"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -114,7 +114,7 @@
                     android:layout_height="120dp"
                     android:adjustViewBounds="false"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/video"
+                    android:src="@drawable/video_logo"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 

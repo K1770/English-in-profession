@@ -48,13 +48,13 @@ public class ComputersFragment extends Fragment {
         });
 
         //no books
-        CardView cardView3 = (CardView) root.findViewById(R.id.english_voc_for_computer_card_view4);
-        cardView3.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                Intent intent = new Intent(getContext(), EnglishVocForComputerActivity.class);
-                startActivity(intent);
-            }
-        });
+//        CardView cardView3 = (CardView) root.findViewById(R.id.english_voc_for_computer_card_view4);
+//        cardView3.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View v) {
+//                Intent intent = new Intent(getContext(), EnglishVocForComputerActivity.class);
+//                startActivity(intent);
+//            }
+//        });
 
         return root;
     }

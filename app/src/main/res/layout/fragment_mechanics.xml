@@ -37,7 +37,7 @@
                     android:adjustViewBounds="false"
                     android:contentDescription=""
                     android:scaleType="centerCrop"
-                    android:src="@drawable/mechanic"
+                    android:src="@drawable/car_mechanic_logo"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -79,7 +79,7 @@
                     android:adjustViewBounds="false"
                     android:contentDescription=""
                     android:scaleType="centerCrop"
-                    android:src="@drawable/mechanic_anatomy"
+                    android:src="@drawable/car_anatomy_logo"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -121,7 +121,7 @@
                     android:adjustViewBounds="false"
                     android:contentDescription=""
                     android:scaleType="centerCrop"
-                    android:src="@drawable/engines"
+                    android:src="@drawable/engines_logo"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -164,7 +164,7 @@
                     android:adjustViewBounds="false"
                     android:contentDescription=""
                     android:scaleType="centerCrop"
-                    android:src="@drawable/mechanic_electrical"
+                    android:src="@drawable/electrical_system_logo"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
