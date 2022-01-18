@@ -19,7 +19,6 @@ public class MainActivity3 extends AppCompatActivity {
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMain3Binding binding;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
