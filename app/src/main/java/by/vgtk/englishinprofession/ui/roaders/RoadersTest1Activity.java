@@ -1,4 +1,4 @@
-package by.vgtk.englishinprofession.ui.computers;
+package by.vgtk.englishinprofession.ui.roaders;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,8 +13,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import by.vgtk.englishinprofession.MainActivity3;
 import by.vgtk.englishinprofession.R;
+import by.vgtk.englishinprofession.databinding.FragmentRoadersBinding;
 
-public class ComputersTestActivity extends AppCompatActivity {
+public class RoadersTest1Activity extends AppCompatActivity {
 
     TextView tv;
     Button submitButton, quitButton;
@@ -22,24 +23,19 @@ public class ComputersTestActivity extends AppCompatActivity {
     RadioButton rb1, rb2, rb3, rb4;
 
     String questions[] = {
-            "Which method can be defined only once in a program?",
-            "Which of these is not a bitwise operator?",
-            "Which keyword is used by method to refer to the object that invoked it?",
-            "Which of these keywords is used to define interfaces in Java?",
-            "Which of these access specifiers can be used for an interface?",
+            "Excavator is used to scrap a thin layer of soil?",
+            "Milling machine is used for repair works?",
     };
-    String answers[] = {"main method", "<=", "this", "interface", "public"};
+    String answers[] = {"No", "Yes",};
     String opt[] = {
-            "finalize method", "main method", "static method", "private method",
-            "&", "&=", "|=", "<=",
-            "import", "this", "catch", "abstract",
-            "Interface", "interface", "intf", "Intf",
-            "public", "protected", "private", "All of the mentioned",
+            "Yes", "No",
+            "Yes", "No",
     };
+
     //flag == index
     int flag = 0;
     public static int correct = 0, wrong = 0;
-    int number_of_answers = 4;
+    int number_of_answers = 2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,10 +58,11 @@ public class ComputersTestActivity extends AppCompatActivity {
         rb3 = (RadioButton) findViewById(R.id.radioButton3);
         rb4 = (RadioButton) findViewById(R.id.radioButton4);
 
+        rb3.setVisibility(View.INVISIBLE);
+        rb4.setVisibility(View.INVISIBLE);
+
         rb1.setText(opt[0]);
         rb2.setText(opt[1]);
-        rb3.setText(opt[2]);
-        rb4.setText(opt[3]);
         submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -94,13 +91,9 @@ public class ComputersTestActivity extends AppCompatActivity {
                     tv.setText(questions[flag]);
                     rb1.setText(opt[flag * number_of_answers]);
                     rb2.setText(opt[flag * number_of_answers + 1]);
-                    rb3.setText(opt[flag * number_of_answers + 2]);
-                    rb4.setText(opt[flag * number_of_answers + 3]);
                 } else {
                     rb1.setVisibility(View.INVISIBLE);
                     rb2.setVisibility(View.INVISIBLE);
-                    rb3.setVisibility(View.INVISIBLE);
-                    rb4.setVisibility(View.INVISIBLE);
                     radio_g.setVisibility(View.INVISIBLE);
                     submitButton.setVisibility(View.INVISIBLE);
                     quitButton.setVisibility(View.VISIBLE);
@@ -111,12 +104,9 @@ public class ComputersTestActivity extends AppCompatActivity {
             }
         });
 
-        quitButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), MainActivity3.class);
-                startActivity(intent);
-            }
+        quitButton.setOnClickListener(v -> {
+            Intent intent = new Intent(getApplicationContext(), FragmentRoadersBinding.class);
+            startActivity(intent);
         });
     }
 
