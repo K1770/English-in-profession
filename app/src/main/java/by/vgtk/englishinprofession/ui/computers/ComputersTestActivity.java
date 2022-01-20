@@ -11,7 +11,6 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import by.vgtk.englishinprofession.MainActivity3;
 import by.vgtk.englishinprofession.R;
 import by.vgtk.englishinprofession.databinding.FragmentComputersBinding;
 
@@ -46,7 +45,7 @@ public class ComputersTestActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_computers_test);
+        setContentView(R.layout.activity_test);
         correct = 0;
         wrong = 0;
 
@@ -105,10 +104,10 @@ public class ComputersTestActivity extends AppCompatActivity {
                     rb3.setVisibility(View.INVISIBLE);
                     rb4.setVisibility(View.INVISIBLE);
                     radio_g.setVisibility(View.INVISIBLE);
-                    submitButton.setVisibility(View.INVISIBLE);
+                    submitButton.setVisibility(View.GONE);
                     quitButton.setVisibility(View.VISIBLE);
                     tv.setText("Number of questions: " + questions.length + "\nCorrect answer: "
-                            + correct + "\n You result: " + (int) 10 / questions.length * correct);
+                            + correct + "\n You result: " + Math.round(10.0 / questions.length * correct));
                 }
                 radio_g.clearCheck();
             }

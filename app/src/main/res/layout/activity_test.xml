@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -11,12 +12,13 @@
 
     <TextView
         android:id="@+id/tvque"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
         android:layout_above="@+id/answersgrp"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="52dp"
+        android:gravity="center"
         android:text="Questions"
+        android:textAlignment="center"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <RadioGroup
@@ -59,25 +61,23 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="395dp"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
         android:layout_below="@+id/answersgrp"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="54dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="0dp"
-        android:background="#FF5722"
         android:text="Next Question"
         android:textColor="#ffffff" />
 
     <Button
         android:id="@+id/buttonquit"
-        android:layout_width="395dp"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
         android:layout_below="@+id/button3"
-        android:layout_marginTop="16dp"
-        android:background="#01579B"
+        android:layout_marginTop="15dp"
         android:text="Quit"
         android:textColor="#ffffff"
         android:visibility="invisible" />
 
-</RelativeLayout>
+</LinearLayout>

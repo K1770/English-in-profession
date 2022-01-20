@@ -11,7 +11,6 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import by.vgtk.englishinprofession.MainActivity3;
 import by.vgtk.englishinprofession.R;
 import by.vgtk.englishinprofession.databinding.FragmentRoadersBinding;
 
@@ -51,7 +50,7 @@ public class RoadersTest1Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_computers_test);
+        setContentView(R.layout.activity_test);
         correct = 0;
         wrong = 0;
 
@@ -69,8 +68,8 @@ public class RoadersTest1Activity extends AppCompatActivity {
         rb3 = (RadioButton) findViewById(R.id.radioButton3);
         rb4 = (RadioButton) findViewById(R.id.radioButton4);
 
-        rb3.setVisibility(View.INVISIBLE);
-        rb4.setVisibility(View.INVISIBLE);
+        rb3.setVisibility(View.GONE);
+        rb4.setVisibility(View.GONE);
 
         rb1.setText(opt_one[0]);
         rb2.setText(opt_one[1]);
@@ -106,10 +105,10 @@ public class RoadersTest1Activity extends AppCompatActivity {
                     rb1.setVisibility(View.INVISIBLE);
                     rb2.setVisibility(View.INVISIBLE);
                     radio_g.setVisibility(View.INVISIBLE);
-                    submitButton.setVisibility(View.INVISIBLE);
+                    submitButton.setVisibility(View.GONE);
                     quitButton.setVisibility(View.VISIBLE);
                     tv.setText("Number of questions: " + questions.length + "\nCorrect answer: "
-                            + correct + "\n You result: " + (int) 10 / questions.length * correct);
+                            + correct + "\n You result: " + Math.round(10.0 / questions.length * correct));
                 }
                 radio_g.clearCheck();
             }
