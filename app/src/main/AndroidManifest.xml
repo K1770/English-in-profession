@@ -85,7 +85,7 @@
             android:name=".ui.computers.ComputersTestActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity3"
+            android:name=".MainActivity"
             android:exported="true"
             android:label="@string/title_activity_main3"
             android:theme="@style/Theme.EnglishInProfession.NoActionBar">

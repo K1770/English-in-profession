@@ -14,7 +14,7 @@ import com.google.android.material.navigation.NavigationView;
 
 import by.vgtk.englishinprofession.databinding.ActivityMain3Binding;
 
-public class MainActivity3 extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMain3Binding binding;
