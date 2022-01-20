@@ -24,11 +24,10 @@ public class RodersTestsActivity extends AppCompatActivity {
         });
 
         Button btnTest2 = (Button) findViewById(R.id.roaders_btn_tests_2);
-        btnTest2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "test 2", Toast.LENGTH_SHORT).show();
-            }
+        btnTest2.setOnClickListener(view -> {
+//            Toast.makeText(getApplicationContext(), "Здесь будет второй тест", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(getApplicationContext(), RoadersTest2Activity.class);
+            startActivity(intent);
         });
 
     }

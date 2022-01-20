@@ -1,4 +1,4 @@
-package by.vgtk.englishinprofession.ui.computers;
+package by.vgtk.englishinprofession.ui.roaders;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,11 +11,10 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import by.vgtk.englishinprofession.MainActivity3;
 import by.vgtk.englishinprofession.R;
 import by.vgtk.englishinprofession.databinding.FragmentComputersBinding;
 
-public class ComputersTestActivity extends AppCompatActivity {
+public class RoadersTest2Activity extends AppCompatActivity {
 
     TextView tv;
     Button submitButton, quitButton;
@@ -23,20 +22,74 @@ public class ComputersTestActivity extends AppCompatActivity {
     RadioButton rb1, rb2, rb3, rb4;
 
     String questions[] = {
-            "Which method can be defined only once in a program?",
-            "Which of these is not a bitwise operator?",
-            "Which keyword is used by method to refer to the object that invoked it?",
-            "Which of these keywords is used to define interfaces in Java?",
-            "Which of these access specifiers can be used for an interface?",
+            "is the natural or artificial removal of surface and sub-surface water from an area?",
+            "is the process of using some implements such as claws, hands, or tools, " +
+                    "to remove material from a solid surface, usually soil or sand on the surface of the earth;?",
+            "is a structural failure in an asphalt pavement, caused by the presence of water in" +
+                    " the underlying soil structure and the presence of traffic passing over the affected area;?",
+            "is a sheet material manufactured from thin layers or \"plies\" of wood veneer that are glued together;\n?",
+            "land reclamation along river banks, usually marked by roads and walkways running along it, parallel to the river;\n?",
+            "is a broad category of coarse material used in construction, including sand, gravel, crushed stones, slag, recycled concrete;?",
+            "is wood that has been processed into beams and planks, a stage in the process of wood production;\n?",
+            "is building material used to make walls, pavements and other elements in masonry construction;\n?",
+            "the presence of a liquid, especially water;\n?",
+            "is a structure built to span physical obstacles without closing the way under" +
+                    " such as a body of water, valley, or road, for the purpose of providing passage over the obstacle;\n?",
+            "calcium hydroxide;\n?",
+            "any material or substance that holds or draws other materials together;\n?",
+            "is a manufactured piece of hard-wearing material such as ceramic, stone, metal, " +
+                    "or even glass, generally used for covering roofs, floors, walls, showers, or other objects such as tabletops;\n?",
+            "is a black mixture of hydrocarbons and free carbon obtained from a wide variety of organic materials;?",
+            "It is most commonly used to protect, color, or provide texture to objects;\n?",
+            "is a kind of material used to cover and decorate the interior walls of homes, offices, cafes, government buildings, etc;\n?",
+            "is an object, thing, action or situation that causes an obstruction;\n?",
+            "is a naturally occurring material that is broken down by processes of weathering and erosion, " +
+                    "and is subsequently transported by the action of wind, water, or ice, and/or by the force of gravity acting on the particles;?",
+            "is a sticky, black and highly viscous liquid or semi-solid form of petroleum\n?",
     };
-    String answers[] = {"main method", "<=", "this", "interface", "public"};
+
+    String answers[] = {
+            "drainage",
+            "digging",
+            "pothole",
+            "ply-wood\n",
+            "embankment",
+            "aggregate",
+            "timber",
+            "brick",
+            "moisture",
+            "bridge",
+            "lime",
+            "binder",
+            "tile",
+            "tar",
+            "paint",
+            "plaster",
+            "obstacle",
+            "sediment",
+            "bitumen",
+    };
 
     String opt[][] = {
-            {"finalize method", "main method", "static method", "private method"},
-            {"&", "&=", "|=", "<="},
-            {"import", "this", "catch", "abstract"},
-            {"Interface", "interface", "intf", "Intf"},
-            {"public", "protected", "private", "All of the mentioned"},
+            {"drainage", "2", "3", "4"},
+            {"drainage", "2", "3", "4"},
+            {"drainage", "2", "3", "4"},
+            {"drainage", "2", "3", "4"},
+            {"drainage", "2", "3", "4"},
+            {"drainage", "2", "3", "4"},
+            {"drainage", "2", "3", "4"},
+            {"drainage", "2", "3", "4"},
+            {"drainage", "2", "3", "4"},
+            {"drainage", "2", "3", "4"},
+            {"drainage", "2", "3", "4"},
+            {"drainage", "2", "3", "4"},
+            {"drainage", "2", "3", "4"},
+            {"drainage", "2", "3", "4"},
+            {"drainage", "2", "3", "4"},
+            {"drainage", "2", "3", "4"},
+            {"drainage", "2", "3", "4"},
+            {"drainage", "2", "3", "4"},
+            {"drainage", "2", "3", "4"},
     };
 
     int question_counter = 0;
