@@ -25,17 +25,28 @@ public class RoadersTest1Activity extends AppCompatActivity {
     String questions[] = {
             "Excavator is used to scrap a thin layer of soil?",
             "Milling machine is used for repair works?",
+            "The main function of loaders is to move loose soil?",
+            "A paver is a machine which is used to smooth out the construction surface and level it?",
+            "A dozer is a useful machine which lifts soil?",
+            "Road work machinery is used for construction of roads?",
+            "Modern and high construction equipments make the construction job easier and quicker?",
+            "Tractor crane is used for lifting heavy materials?",
     };
-    String answers[] = {"No", "Yes",};
-    String opt[] = {
-            "Yes", "No",
-            "Yes", "No",
+    String answers[] = {
+            "No",
+            "Yes",
+            "Yes",
+            "No",
+            "No",
+            "Yes",
+            "Yes",
+            "Yes",
     };
 
-    //flag == index
-    int flag = 0;
+    String opt_one[] = {"Yes", "No"};
+
+    int question_counter = 0;
     public static int correct = 0, wrong = 0;
-    int number_of_answers = 2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +61,7 @@ public class RoadersTest1Activity extends AppCompatActivity {
         submitButton = (Button) findViewById(R.id.button3);
         quitButton = (Button) findViewById(R.id.buttonquit);
 
-        tv.setText(questions[flag]);
+        tv.setText(questions[question_counter]);
 
         radio_g = (RadioGroup) findViewById(R.id.answersgrp);
         rb1 = (RadioButton) findViewById(R.id.radioButton);
@@ -61,8 +72,8 @@ public class RoadersTest1Activity extends AppCompatActivity {
         rb3.setVisibility(View.INVISIBLE);
         rb4.setVisibility(View.INVISIBLE);
 
-        rb1.setText(opt[0]);
-        rb2.setText(opt[1]);
+        rb1.setText(opt_one[0]);
+        rb2.setText(opt_one[1]);
         submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -76,7 +87,7 @@ public class RoadersTest1Activity extends AppCompatActivity {
                 RadioButton uans = (RadioButton) findViewById(radio_g.getCheckedRadioButtonId());
                 String ansText = uans.getText().toString();
 //                Toast.makeText(getApplicationContext(), ansText, Toast.LENGTH_SHORT).show();
-                if (ansText.equals(answers[flag])) {
+                if (ansText.equals(answers[question_counter])) {
                     correct++;
                     Toast.makeText(getApplicationContext(), "Correct", Toast.LENGTH_SHORT).show();
                 } else {
@@ -84,13 +95,13 @@ public class RoadersTest1Activity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Wrong", Toast.LENGTH_SHORT).show();
                 }
 
-                flag++;
+                question_counter++;
 
                 //change text on screen
-                if (flag < questions.length) {
-                    tv.setText(questions[flag]);
-                    rb1.setText(opt[flag * number_of_answers]);
-                    rb2.setText(opt[flag * number_of_answers + 1]);
+                if (question_counter < questions.length) {
+                    tv.setText(questions[question_counter]);
+                    rb1.setText(opt_one[0]);
+                    rb2.setText(opt_one[1]);
                 } else {
                     rb1.setVisibility(View.INVISIBLE);
                     rb2.setVisibility(View.INVISIBLE);
