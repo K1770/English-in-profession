@@ -26,7 +26,7 @@ public class BuildersFragment extends Fragment {
         CardView cardView1 = (CardView) root.findViewById(R.id.builders_card_view1);
         cardView1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent=new Intent(getContext(), BuildersProfessionsDescriptionActivity.class);
+                Intent intent = new Intent(getContext(), BuildersProfessionsDescriptionActivity.class);
                 startActivity(intent);
             }
         });
@@ -34,7 +34,7 @@ public class BuildersFragment extends Fragment {
         CardView cardView2 = (CardView) root.findViewById(R.id.builders_card_view2);
         cardView2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent=new Intent(getContext(), BuildersVocabulary.class);
+                Intent intent = new Intent(getContext(), BuildersVocabulary.class);
                 startActivity(intent);
             }
         });
@@ -42,7 +42,7 @@ public class BuildersFragment extends Fragment {
         CardView cardView3 = (CardView) root.findViewById(R.id.builders_card_view3);
         cardView3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent=new Intent(getContext(), BuildersConstructionSiteSafetyRules.class);
+                Intent intent = new Intent(getContext(), BuildersConstructionSiteSafetyRules.class);
                 startActivity(intent);
             }
         });
@@ -50,7 +50,7 @@ public class BuildersFragment extends Fragment {
         CardView cardView4 = (CardView) root.findViewById(R.id.builders_card_view4);
         cardView4.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent=new Intent(getContext(), BuildersBooksActivity.class);
+                Intent intent = new Intent(getContext(), BuildersBooksActivity.class);
                 startActivity(intent);
             }
         });
@@ -58,7 +58,7 @@ public class BuildersFragment extends Fragment {
         CardView cardView5 = (CardView) root.findViewById(R.id.builders_card_view5);
         cardView5.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent=new Intent(getContext(), BuildersToolsActivity.class);
+                Intent intent = new Intent(getContext(), BuildersToolsActivity.class);
                 startActivity(intent);
             }
         });
@@ -66,7 +66,7 @@ public class BuildersFragment extends Fragment {
         CardView cardView6 = (CardView) root.findViewById(R.id.builders_card_view6);
         cardView6.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent=new Intent(getContext(), BuildersMaterialsActivity.class);
+                Intent intent = new Intent(getContext(), BuildersMaterialsActivity.class);
                 startActivity(intent);
             }
         });
@@ -74,7 +74,14 @@ public class BuildersFragment extends Fragment {
         CardView cardView7 = (CardView) root.findViewById(R.id.builders_card_view7);
         cardView7.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent=new Intent(getContext(), BuildersBricksActivity.class);
+                Intent intent = new Intent(getContext(), BuildersBricksActivity.class);
+                startActivity(intent);
+            }
+        });
+        CardView cardView8 = (CardView) root.findViewById(R.id.builders_card_view8);
+        cardView8.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), BuildersTestActivity.class);
                 startActivity(intent);
             }
         });
